@@ -1,0 +1,1 @@
+2026/08/17 15:00:33		[Error]		【StartRecorder】	 [StartRecorder Error(140)]：操作失败，请查看记录器日志获取详细信息，文件路径：D:/SCHOOL/6.2026-Summer/Week_1/Project/EA_program/test01\Recorder\FI-01-制动踏板.dr

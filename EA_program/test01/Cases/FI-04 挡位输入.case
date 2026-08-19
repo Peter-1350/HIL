@@ -1,0 +1,1220 @@
+<?xml version="1.0"?>
+<TestCase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>test_51c1a3e769e348f395117f005c3845f3</ID>
+  <Mapping>
+    <MappingItem Name="[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/Veh_1/InPort/Veh_1.Driver.BrakePedal_perc</RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description />
+      <RefCount>5</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+    <MappingItem Name="[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/Veh_1/InPort/Veh_1.Driver.Key</RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description />
+      <RefCount>3</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+    <MappingItem Name="[0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/VCU/OutPort/GW_VCU_1.VCU_bReadyLightSts</RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description />
+      <RefCount>2</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+    <MappingItem Name="[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/Veh_1/InPort/Veh_1.Driver.Gear_Button</RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description />
+      <RefCount>18</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+    <MappingItem Name="[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/Veh_1/InPort/Veh_1.Driver.AccPedal_perc</RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description />
+      <RefCount>3</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+    <MappingItem Name="[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Vehicle1.Vehspeed </RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description />
+      <RefCount>6</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+  </Mapping>
+  <Variables>
+    <VariableItem Name="Speed" DataType="Float" Description="">
+      <InitialValue>0</InitialValue>
+      <CurrentValue />
+      <RefCount>3</RefCount>
+    </VariableItem>
+  </Variables>
+  <Constants />
+  <Namespaces />
+  <InitSteps />
+  <StopSteps />
+  <TestSteps>
+    <StepItem ID="test_b20aa6e939f74bab842af996d8fa7b09" Name="FI-04" TestType="TCG">
+      <Path>/</Path>
+      <Action>Group</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_bcb4f36b5987484988a2a03d8e9ae615" Name="非法挡位" TestType="TCG">
+      <Path>/FI-04</Path>
+      <Action>Group</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_1c140a93b622419ca40e4410d9e507c3" Name="上ready灯+速度达到160" TestType="TCG">
+      <Path>/FI-04/非法挡位</Path>
+      <Action>Group</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_80f88b32d2c74791bba23e9834e16ffd" Name="Write" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 100</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>100</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>制动踏板 0-100</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_b30e195d9f9a4c6697a6a5b485cbf0dc" Name="Wait" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_6ac28251b03c40e1a9dfe18dba875074" Name="Write" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>拧钥匙 1-开 0-关</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_97ba330c076944b4939640da603101c5" Name="Wait" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8c6f14ef113649f1bfd530e7ed987865" Name="Wait" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>2 s</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>2</Duration>
+          <Unit>s</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_56994e40a88046fbad4e641911a82705" Name="Read" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts, Timeout = 1000</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>false</CanSaveValue>
+          <CanEvaluation>true</CanEvaluation>
+          <Mapping>[0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts</Mapping>
+          <Constant />
+          <Value />
+          <Timeout>1000</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Expectation xsi:type="ExpectationOption">
+        <Comparison xsi:type="NumericComparison" Type="">
+          <Measure>OperatingForce</Measure>
+          <Operator>==</Operator>
+          <Value>1</Value>
+          <ToleranceType>None</ToleranceType>
+          <ToleranceValue />
+        </Comparison>
+      </Expectation>
+      <Comment>ready灯</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_5b7e3ad9899842de9540f982eb8b2bc8" Name="Wait" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_e3ca84a44bf749b3aa3f31f32dc97ce9" Name="Write" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挂D挡</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_9abac243a42b409ea422b4cdad29e03e" Name="Wait" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_9387b23006114dd6ba419cab8eff3cbd" Name="Write" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>松刹车</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_b1d7981d4a144106b6d1cce065c2a7b3" Name="Wait" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_593504046bf945379bdb58bc450e86a4" Name="Write" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc = 100</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>100</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>给油</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_e4c4e50d691845d9a6ab89dd16b9a315" Name="Wait" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_686717914f784c0fae20c45eb6d92176" Name="Read" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed, Timeout = 200</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed</Mapping>
+          <Variable>Speed</Variable>
+          <Constant />
+          <Value />
+          <Timeout>200</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>Speed</Value>
+      <Comment>速度</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_46cfef00ae9b4e2a9f44ab204db4a6f6" Name="Wait" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_1009b39600fb4ae08dd2501df4e936c4" Name="While" TestType="TCG">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160</Path>
+      <Action>While</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>$Speed &lt;= 160</Text>
+        <Metadata xsi:type="WhileMetadata">
+          <Expression>$Speed &lt;= 160</Expression>
+          <ExpressionEditMode>Easy</ExpressionEditMode>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_92d3cbf3cfbb498e83dfeaea07d2a844" Name="Read" TestType="TCS">
+      <Path>/FI-04/非法挡位/上ready灯+速度达到160/While</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed, Timeout = 200</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed</Mapping>
+          <Variable>Speed</Variable>
+          <Constant />
+          <Value />
+          <Timeout>200</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>Speed</Value>
+      <Comment>速度</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_3e7ea3f5863647c099e5664310331ac4" Name="Write" TestType="TCS">
+      <Path>/FI-04/非法挡位</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 5</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>5</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>正常挡位为0-3   写入非法挡位5</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_b728f811429143d2a84784746133d49e" Name="Wait" TestType="TCS">
+      <Path>/FI-04/非法挡位</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>5 s</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>5</Duration>
+          <Unit>s</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_02579194e05047e28d3cabf0de88d8e7" Name="Write" TestType="TCS">
+      <Path>/FI-04/非法挡位</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = -1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>-1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>正常挡位为0-3   写入非法挡位-1</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8483823d454246ddb2978ead114a7520" Name="Wait" TestType="TCS">
+      <Path>/FI-04/非法挡位</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>5 s</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>5</Duration>
+          <Unit>s</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_e41466e4bd4d45d6ba852333ad083c1a" Name="恢复置零" TestType="TCG">
+      <Path>/FI-04/非法挡位</Path>
+      <Action>Group</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_bb22c7dfcb4943a5adb43f188655476a" Name="Write" TestType="TCS">
+      <Path>/FI-04/非法挡位/恢复置零</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挂N-0挡 </Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_c9af4d5197d5490dbb13fbc798f8fc4e" Name="Write" TestType="TCS">
+      <Path>/FI-04/非法挡位/恢复置零</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>松油</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_ff72cd5fe3474fa0b6cc5896ca698375" Name="Write" TestType="TCS">
+      <Path>/FI-04/非法挡位/恢复置零</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 100</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>100</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>刹车</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_9b2709cec9014227bdaff6a0da58b0bd" Name="Write" TestType="TCS">
+      <Path>/FI-04/非法挡位/恢复置零</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>拔钥匙 1-开 0-关</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_4d95fa5cb5fe43d4aa849b6c65671193" Name="Read" TestType="TCS">
+      <Path>/FI-04/非法挡位/恢复置零</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed, Timeout = 100</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed</Mapping>
+          <Variable>Speed</Variable>
+          <Constant />
+          <Value />
+          <Timeout>100</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>Speed</Value>
+      <Comment>读取速度</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_10240cdb7c3e4ab3bb016167899c36ca" Name="While" TestType="TCG">
+      <Path>/FI-04/非法挡位/恢复置零</Path>
+      <Action>While</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>$Speed &gt; 0</Text>
+        <Metadata xsi:type="WhileMetadata">
+          <Expression>$Speed &gt; 0</Expression>
+          <ExpressionEditMode>Easy</ExpressionEditMode>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_6508e937ecd7483e9c3b2f402ce04716" Name="Read" TestType="TCS">
+      <Path>/FI-04/非法挡位/恢复置零/While</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed, Timeout = 100</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed</Mapping>
+          <Variable>Speed</Variable>
+          <Constant />
+          <Value />
+          <Timeout>100</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>Speed</Value>
+      <Comment>读取速度</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_2e0301d6db1742d2acd6f08ba2b68ee0" Name="挡位跳变" TestType="TCG">
+      <Path>/FI-04</Path>
+      <Action>Group</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_37276e053cfb454cbb134d9dc73e7e8f" Name="上ready灯+速度达到160" TestType="TCG">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Group</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_2711ee05cd514e53bd235fa6f37d8730" Name="Write" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 100</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>100</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>制动踏板 0-100</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_c4ab19664c664041a93c50446c0a7a94" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_3515076f5f7f4533b2546b0cdc162b17" Name="Write" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>拧钥匙 1-开 0-关</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_0e6fbbd56697407c9fca957f6d51d0e7" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_6b6840529e7e4f828a4e73665c833f29" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>2 s</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>2</Duration>
+          <Unit>s</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_fe1d533d2cf545aeb44465518c9f3348" Name="Read" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts, Timeout = 1000</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>false</CanSaveValue>
+          <CanEvaluation>true</CanEvaluation>
+          <Mapping>[0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts</Mapping>
+          <Constant />
+          <Value />
+          <Timeout>1000</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Expectation xsi:type="ExpectationOption">
+        <Comparison xsi:type="NumericComparison" Type="">
+          <Measure>OperatingForce</Measure>
+          <Operator>==</Operator>
+          <Value>1</Value>
+          <ToleranceType>None</ToleranceType>
+          <ToleranceValue />
+        </Comparison>
+      </Expectation>
+      <Comment>ready灯</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_40d93d4cde8f411fa7338035765591e4" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_4f29189b4e724d52baeeda3eefdd2f86" Name="Write" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挂D挡</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_4a9d703a17aa4a6a9970d486798232e1" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_412e1bec32a449fc9ad24dcb018e8f28" Name="Write" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>松刹车</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_d2f396bc8a42424c919ddf9deecf355f" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_b6fb41b78c8841688c855b4b171cb42d" Name="Write" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc = 100</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>100</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>给油</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_e733cd91e3d844ef946a6978629708c5" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_3f2922f03c284ef6813a7f78770f8d1f" Name="Read" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed, Timeout = 200</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed</Mapping>
+          <Variable>Speed</Variable>
+          <Constant />
+          <Value />
+          <Timeout>200</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>Speed</Value>
+      <Comment>速度</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_270c7a9910fd4245a39e06c9afb07ec8" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_669e6cd4c0a24e758b994034374e2cee" Name="While" TestType="TCG">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160</Path>
+      <Action>While</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>$Speed &lt;= 160</Text>
+        <Metadata xsi:type="WhileMetadata">
+          <Expression>$Speed &lt;= 160</Expression>
+          <ExpressionEditMode>Easy</ExpressionEditMode>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_1ebf3014723246e0ac8e21f23f65b05f" Name="Read" TestType="TCS">
+      <Path>/FI-04/挡位跳变/上ready灯+速度达到160/While</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed, Timeout = 200</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed</Mapping>
+          <Variable>Speed</Variable>
+          <Constant />
+          <Value />
+          <Timeout>200</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>Speed</Value>
+      <Comment>速度</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_12e550ce1ba74f81ae640adbd0250e1f" Name="Write" TestType="TCS">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挡位跳变</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_e7ca6a1b2ba94554af65814aa95a7111" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>5 s</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>5</Duration>
+          <Unit>s</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_353be2bf6655437dad677030396fd10b" Name="Write" TestType="TCS">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挡位恢复</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_104c7228b1cd4b94993412c51bc185ca" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>5 s</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>5</Duration>
+          <Unit>s</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_04fe88f5cbbb46e6b9117170b9b12a7b" Name="Write" TestType="TCS">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 2</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>2</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挡位跳变</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_503fe3db1bbb42f784ea1bae607a0b1e" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>5 s</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>5</Duration>
+          <Unit>s</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_e6abafeaad884a12ab2b40cadc8390dd" Name="Write" TestType="TCS">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挡位恢复</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_9c88fc828bf6442bb4b81d831941beed" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>5 s</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>5</Duration>
+          <Unit>s</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_1083efc2f5a646b3941cfdd7a00c8f8c" Name="Write" TestType="TCS">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 3</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>3</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挡位跳变</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_40930ddc4b6949ac95415be56b3ffd1c" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>5 s</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>5</Duration>
+          <Unit>s</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_d947da5c74a5483aaf80c2ffcde008eb" Name="Write" TestType="TCS">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挡位恢复</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_c47be0d5d6f547ada421da26ded39688" Name="Wait" TestType="TCS">
+      <Path>/FI-04/挡位跳变</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>5 s</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>5</Duration>
+          <Unit>s</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_84768ccf8fb04fba9038548d9bac274b" Name="短脉冲" TestType="TCG">
+      <Path>/FI-04</Path>
+      <Action>Group</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_285a4cfe8e1f42ab9759f8eb1edaf044" Name="Write" TestType="TCS">
+      <Path>/FI-04/短脉冲</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挡位脉冲</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_9702126727e541df8475b19e40890c06" Name="Wait" TestType="TCS">
+      <Path>/FI-04/短脉冲</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>200 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>200</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_0c965a145e3040489fec3fdab08f436e" Name="Write" TestType="TCS">
+      <Path>/FI-04/短脉冲</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挡位恢复</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_7a7babfa660346dbb4aee59b795d6806" Name="Wait" TestType="TCS">
+      <Path>/FI-04/短脉冲</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>2 s</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>2</Duration>
+          <Unit>s</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_01043c71f02847c39dc09db06cc09168" Name="Write" TestType="TCS">
+      <Path>/FI-04/短脉冲</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 2</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>2</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挡位脉冲</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_452ed7da7e26415398f31b56a6e0924b" Name="Wait" TestType="TCS">
+      <Path>/FI-04/短脉冲</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>200 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>200</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_23fd2df15d9142db961f931184a49cbf" Name="Write" TestType="TCS">
+      <Path>/FI-04/短脉冲</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挡位恢复</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_df8343b89578432f97fd228a10013e2a" Name="Wait" TestType="TCS">
+      <Path>/FI-04/短脉冲</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>2 s</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>2</Duration>
+          <Unit>s</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_ae98f0f74a21497cad475b4c9e951eb7" Name="Write" TestType="TCS">
+      <Path>/FI-04/短脉冲</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 3</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>3</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挡位脉冲</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_96af0046eed94459b0a355d01159d2a1" Name="Wait" TestType="TCS">
+      <Path>/FI-04/短脉冲</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>200 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>200</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_df54638d8ef640dba14cd40473814fbc" Name="Write" TestType="TCS">
+      <Path>/FI-04/短脉冲</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挡位恢复</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+  </TestSteps>
+</TestCase>

@@ -1,0 +1,13 @@
+用例,子项,注入接口,实际值变化,开始时间_s,结束时间_s,已记录输出响应,最终判定,备注
+EV-10,电池包电压,Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_3.BMS_BattVolt,0→10→-10→0,0.880,1.302,未观察到,未观察到响应,单位和缩放待DBC确认
+EV-11,直流母线电压,Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_3.BMS_DCBusVoltage,0→10→-10→0,1.524,1.946,未观察到,未观察到响应,单位和缩放待DBC确认
+EV-12,电池电流,Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_3.BMS_BatteryCurrent,0→10→-10,2.168,记录结束,未观察到,未观察到直接响应,末值-10未恢复
+EV-13,充/放电限值,BMS_MaxChgCurr;BMS_MaxDischgCurr,全程0,—,—,未测试,未测试,本轮按要求排除
+EV-14a,欠压状态,Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_UnderVoltageSts,0→1→2→0,2.812,3.234,未观察到,未观察到响应,状态码语义待DBC确认
+EV-14b,过压状态,Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_OverVoltageSts,0→1→2→0,3.456,3.880,未观察到,未观察到响应,状态码语义待DBC确认
+EV-14c,单体过压,Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_CellOverVoltageSts,0→1→2→0,4.102,4.524,未观察到,未观察到响应,状态码语义待DBC确认
+EV-14d,单体欠压,Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS__CellUnderVoltageSts,0→1→2→0,4.746,5.168,未观察到,未观察到响应,状态码语义待DBC确认
+EV-15a,电流采样错误,Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_CurrSampleErr,0→1→2→0,5.390,5.812,未观察到,未观察到响应,状态码语义待DBC确认
+EV-15b,电流传感器通信错误,Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_Currsensor_CommuErr,0→1→2→0,6.036,6.458,未观察到,未观察到响应,状态码语义待DBC确认
+EV-15c,过流状态,Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_OverCurrtSts,0→1→2→0,6.680,7.102,未观察到,未观察到响应,状态码语义待DBC确认
+EV-15d,过充电流状态,Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_OverChgCurrSts,0→1→2→0,7.324,7.746,未观察到,未观察到响应,状态码语义待DBC确认

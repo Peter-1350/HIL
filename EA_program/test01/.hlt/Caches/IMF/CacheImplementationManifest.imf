@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ImplementationManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.asam.net/XIL/ImplementationManifest/2.0">
+  <NetTestbenchImplementation VendorName="Kunyi.HIL2.0" ProductName="XIL" ProductVersion="1.0" TechnologyVersion="2">
+    <AssemblyName>KY.VCar.EA.XIL.Implementation.Testbench</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyKeyToken>null</AssemblyKeyToken>
+    <AssemblyCulture>neutral</AssemblyCulture>
+    <TestbenchClassName>KY.VCar.EA.XIL.Implementation.Testbench.Testbench</TestbenchClassName>
+  </NetTestbenchImplementation>
+</ImplementationManifest>

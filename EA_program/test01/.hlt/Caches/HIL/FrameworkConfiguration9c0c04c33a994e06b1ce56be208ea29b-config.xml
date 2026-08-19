@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<FrameworkConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MappingFileList>
+    <MappingFile Name="env_15b8158ce259f4a3dac93a970cd37c4b8-mapping.xml">D:\SCHOOL\6.2026-Summer\Week_1\Project\EA_program\test01\.hlt\Caches\HIL\env_15b8158ce259f4a3dac93a970cd37c4b8-mapping.xml</MappingFile>
+  </MappingFileList>
+  <PortDefinitionList>
+    <MAPortDefinition InstanceName="VCU_HIL : env_1" InitOrder="0" ShutdownOrder="0" TargetState="eSIMULATION_RUNNING">
+      <PortType>eMA_PORT</PortType>
+      <VendorName>Kunyi.HIL2.0</VendorName>
+      <ProductName>XIL</ProductName>
+      <ProductVersion>1.0</ProductVersion>
+      <PortConfigurationFile>D:\SCHOOL\6.2026-Summer\Week_1\Project\EA_program\test01\.hlt\Caches\HIL\env_159c99ceb8cf7499c84e0cff291f81e5b-port.xml</PortConfigurationFile>
+    </MAPortDefinition>
+  </PortDefinitionList>
+</FrameworkConfiguration>

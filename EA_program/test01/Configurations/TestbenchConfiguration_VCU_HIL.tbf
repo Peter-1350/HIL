@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<TestbenchConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ComponentDefinitions>
+    <ComponentDefinition>
+      <Path>/</Path>
+      <Name>HIL2.0</Name>
+      <Category>TOOL</Category>
+      <Precedence>0</Precedence>
+      <Used>false</Used>
+      <Config xsi:type="HILToolConfiguration">
+        <IsNotifying>false</IsNotifying>
+        <HILItems>
+          <HILItem>
+            <IsNotifying>false</IsNotifying>
+            <Name>VCU_HIL</Name>
+            <Folder>D:\SCHOOL\6.2026-Summer\Week_1\Project\VCU_HIL_RCP</Folder>
+            <Path>D:\SCHOOL\6.2026-Summer\Week_1\Project\VCU_HIL_RCP\VCU_HIL.emr</Path>
+            <RtpcIP>192.168.3.199</RtpcIP>
+            <DeviceType>KUN_YI</DeviceType>
+          </HILItem>
+        </HILItems>
+      </Config>
+    </ComponentDefinition>
+    <ComponentDefinition>
+      <Path>/HIL2.0</Path>
+      <Name>VCU_HIL : env_1</Name>
+      <Extension>MAPort</Extension>
+      <Category>PORT</Category>
+      <Precedence>0</Precedence>
+      <Used>false</Used>
+      <Config xsi:type="MAPortConfiguration">
+        <IsNotifying>false</IsNotifying>
+        <SolutionName>VCU_HIL</SolutionName>
+        <EnvironmentName>env_1</EnvironmentName>
+        <PortConfig>D:\SCHOOL\6.2026-Summer\Week_1\Project\VCU_HIL_RCP\.em\Environments\env_1\env_1_Design\.ip\Build\env_1_Design.ipr</PortConfig>
+        <IsForce>false</IsForce>
+        <StartTargetState>START</StartTargetState>
+        <StopTargetState>STOP</StopTargetState>
+        <TaskRate>0</TaskRate>
+        <Downsampling>0</Downsampling>
+        <Duration>0</Duration>
+        <Format>MDF</Format>
+      </Config>
+    </ComponentDefinition>
+  </ComponentDefinitions>
+</TestbenchConfiguration>

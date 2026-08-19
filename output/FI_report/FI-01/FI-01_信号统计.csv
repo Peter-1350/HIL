@@ -1,0 +1,10 @@
+信号,接口,首值,末值,最小值,最大值,均值,变化次数,最大相邻步长变化,最大变化样本序号,备注
+Vehspeed,Veh_1.PlantModel.PlantModel.Vehicle1.Vehspeed,164.165596,188.518728,87.666880,188.518728,154.542745,321,4.417180,64,记录配置未定义单位
+BMS_HVBusCurr,Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_HVBusVolt_Curr.BMS_HVBusCurr_ToBus,1084.847577,976.915050,1.471959,1908.926056,934.703813,321,1428.111118,107,记录配置未定义单位和方向
+MC_busbar_current,Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_motor_Torque_AND_speed.MC_busbar_current_ToBus,559.046394,508.278536,0.827741,968.989903,481.046110,321,894.803650,107,记录配置未定义单位和方向
+MC_motor_speed,Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_motor_Torque_AND_speed.MC_motor_speed_ToBus,12818.937352,14388.816570,6156.327348,14388.816570,11970.593120,321,1252.106505,149,记录配置未定义单位
+BrakeOpen1,Veh_1.ToVCU.HW.Relay.Relay9.BrakeOpen1_Out,2,0,0,2,0.521739,9,2,24,与BrakeOpen2全样本一致
+BrakeOpen2,Veh_1.ToVCU.HW.Relay.Relay12.BrakeOpen2_Out,2,0,0,2,0.521739,9,2,24,与BrakeOpen1全样本一致
+BRK_Main,Veh_1.ToVCU.HW.Voltage Output.Voltage Output1.BRK_Main_Out,1.076675,1,1,4,1.424805,23,3,89,等于1加0.03乘以钳位后踏板值
+BRK_Auxi,Veh_1.ToVCU.HW.Voltage Output.Voltage Output5.BRK_Auxi_Out,0.538338,0.5,0.5,2,0.712403,23,1.5,89,等于BRK_Main的一半
+BrakePedal_perc,Veh_1.Driver.BrakePedal_perc,2.555845,0,-50,150,14.160174,25,150,129,新增的FI-01输入接口

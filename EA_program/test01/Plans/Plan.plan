@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<TestPlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>test_028722c8da6d4dd3b874e7edae3790e9</ID>
+  <Configuration>
+    <CanErrorRetry>false</CanErrorRetry>
+    <ErrorRetryCount>0</ErrorRetryCount>
+  </Configuration>
+  <Sequences>
+    <SequenceItem>
+      <ID>test_3e727335fcd743329a1a2527ecc7fa0b</ID>
+      <Path>/</Path>
+      <RefPath>Cases\start.case</RefPath>
+      <Name>start</Name>
+      <Action />
+      <Comment />
+      <Value />
+      <TestType>TCC</TestType>
+      <IsCommented>false</IsCommented>
+      <Option xsi:type="SequenceItemMetadata">
+        <CanLoop>true</CanLoop>
+        <LoopCount>1</LoopCount>
+      </Option>
+    </SequenceItem>
+    <SequenceItem>
+      <ID>test_963c1d227965474e90b09447c16b6458</ID>
+      <Path>/</Path>
+      <RefPath>Cases\FI_01.case</RefPath>
+      <Name>FI_01</Name>
+      <Action />
+      <Comment />
+      <Value />
+      <TestType>TCC</TestType>
+      <IsCommented>false</IsCommented>
+      <Option xsi:type="SequenceItemMetadata">
+        <CanLoop>true</CanLoop>
+        <LoopCount>1</LoopCount>
+      </Option>
+    </SequenceItem>
+  </Sequences>
+</TestPlan>

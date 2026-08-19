@@ -1,0 +1,9 @@
+检查项,样本范围,结果,判定
+BrakeMode保持,324个样本,全部为0且变化次数0,卡死/冻结为0
+BRK主电压映射,全部样本,BRK_Main等于1加0.03乘以钳位制动踏板且最大残差0,通过
+BRK辅电压映射,全部样本,BRK_Auxi等于BRK_Main一半且最大残差0,通过
+ACC主电压映射,全部样本,ACC_Main等于1加0.03乘以钳位油门且最大残差4.440892e-16,通过
+ACC辅电压映射,全部样本,ACC_Auxi等于ACC_Main一半且最大残差2.220446e-16,通过
+双制动继电器,全部样本,BrakeOpen1与BrakeOpen2一致且失配样本0,通过
+DriveMode继电器,全部样本,DriveModeOut始终为0,无BrakeMode边沿无法评价关联
+模型禁用继电器,全部样本,ModelDisabledOut在4.2秒由1变2后保持,与Key初始化同时发生

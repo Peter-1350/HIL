@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<TestConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PlatformConfig>
+    <Models>
+      <AccessDefinition>
+        <Path>/</Path>
+        <Name>平台</Name>
+        <Category>PLATFORM</Category>
+        <Extensions />
+      </AccessDefinition>
+      <AccessDefinition>
+        <Path>/平台</Path>
+        <Name>模型访问</Name>
+        <Category>ACCESS</Category>
+        <Extensions />
+      </AccessDefinition>
+    </Models>
+  </PlatformConfig>
+  <ParameterConfig>
+    <IsNotifying>true</IsNotifying>
+    <Mappings />
+    <Constants />
+  </ParameterConfig>
+  <ExecutionConfig>
+    <IsNotifying>true</IsNotifying>
+    <Duration>100</Duration>
+    <WriteDuration>100</WriteDuration>
+    <ErrBehaviorMode>NextStep</ErrBehaviorMode>
+    <CanRecovery>false</CanRecovery>
+    <ErrRecoveryMode>Abort</ErrRecoveryMode>
+    <ResetMode>Reset</ResetMode>
+    <CanLoop>false</CanLoop>
+    <LoopCount>0</LoopCount>
+    <LoopMode>None</LoopMode>
+    <LoopCondition>Result</LoopCondition>
+    <LoopDuration>0</LoopDuration>
+    <LoopDurationUnit>Second</LoopDurationUnit>
+    <StartTimestamp>0</StartTimestamp>
+    <EndTimestamp>0</EndTimestamp>
+    <StopLoopAtOnce>false</StopLoopAtOnce>
+    <CanPrecondition>false</CanPrecondition>
+    <PreconditionMode>EveryTime</PreconditionMode>
+    <CanPostcondition>false</CanPostcondition>
+    <PostconditionMode>EveryTime</PostconditionMode>
+  </ExecutionConfig>
+  <ReportConfig>
+    <IsNotifying>true</IsNotifying>
+    <CanSavePath>false</CanSavePath>
+    <CanCopyLog>false</CanCopyLog>
+    <OutMode>Default</OutMode>
+    <Format>HTML</Format>
+    <UserDataEntries />
+  </ReportConfig>
+</TestConfiguration>

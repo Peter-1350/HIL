@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<TestCase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>test_15d5f3d3b3764c48a1167ac77cd9fa72</ID>
+  <Mapping>
+    <MappingItem Name="[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/Veh_1/InPort/Veh_1.Driver.DriveMode</RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description />
+      <RefCount>6</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+    <MappingItem Name="[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Power/VCU_Geaeral_CAN1/VCU_Drive_mode" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_Drive_mode</RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Power/VCU_Geaeral_CAN1/VCU_Drive_mode</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description />
+      <RefCount>2</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+  </Mapping>
+  <Variables>
+    <VariableItem Name="VCU_Drive_mode" DataType="Float" Description="">
+      <InitialValue>0</InitialValue>
+      <CurrentValue />
+      <RefCount>2</RefCount>
+    </VariableItem>
+  </Variables>
+  <Constants />
+  <Namespaces />
+  <InitSteps />
+  <StopSteps />
+  <TestSteps>
+    <StepItem ID="test_a8c6c31390eb420c823f102d1eb74202" Name="Wait" TestType="TCS">
+      <Path>/</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>1000 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>1000</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_4adcc35143544216ba2b58049d3e8e73" Name="If" TestType="TCG">
+      <Path>/</Path>
+      <Action>IfThenElse</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>$VCU_Drive_mode == 1</Text>
+        <Metadata xsi:type="IfThenElseMetadata">
+          <Condition>$VCU_Drive_mode == 1</Condition>
+          <ExpressionEditMode>Easy</ExpressionEditMode>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_ece0555994134f32ba8e5a3238dafb53" Name="Then" TestType="TCG">
+      <Path>/If</Path>
+      <Action>IfThenElse</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_279c633593904670910929613e9c0c2c" Name="Else" TestType="TCG">
+      <Path>/If</Path>
+      <Action>IfThenElse</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_6191e0ec931747a1ac2823cf76d77b1d" Name="Switch" TestType="TCG">
+      <Path>/If/Else</Path>
+      <Action>Group</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_2febdfd960cf4929a8c5812b3b177b54" Name="Write" TestType="TCS">
+      <Path>/If/Else/Switch</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>switch</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_6e173e7eb39a4cfc8ebaa6dd6674f855" Name="Wait" TestType="TCS">
+      <Path>/If/Else/Switch</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>500 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>500</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_c2384fde2989484f90b3d01849ed9812" Name="Write" TestType="TCS">
+      <Path>/If/Else/Switch</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>switch</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_9facc2e58ab74120a98dc64f931b73d1" Name="Wait" TestType="TCS">
+      <Path>/If/Else/Switch</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>500 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>500</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_763b3bf9f8974ed0b94c8353c98aa604" Name="Write" TestType="TCS">
+      <Path>/If/Else/Switch</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>switch</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_0004ff90f979453c8561f5fbe5d1d66d" Name="Wait" TestType="TCS">
+      <Path>/If/Else/Switch</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>500 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>500</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_42448f74ece349c1ba3b16ffbc90099d" Name="Read" TestType="TCS">
+      <Path>/If/Else</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Power/VCU_Geaeral_CAN1/VCU_Drive_mode, Timeout = 100</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>true</CanEvaluation>
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Power/VCU_Geaeral_CAN1/VCU_Drive_mode</Mapping>
+          <Variable>VCU_Drive_mode</Variable>
+          <Constant />
+          <Value />
+          <Timeout>100</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>VCU_Drive_mode</Value>
+      <Expectation xsi:type="ExpectationOption">
+        <Comparison xsi:type="NumericComparison" Type="">
+          <Measure>OperatingForce</Measure>
+          <Operator>==</Operator>
+          <Value>1</Value>
+          <ToleranceType>None</ToleranceType>
+          <ToleranceValue />
+        </Comparison>
+      </Expectation>
+      <Comment>读取当前驾驶模式</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_52a33bbb75c24969b994bf8603254a41" Name="Wait" TestType="TCS">
+      <Path>/</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>1000 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>1000</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_e0874ed6d8f448e2b680117db19f5329" Name="If" TestType="TCG">
+      <Path>/</Path>
+      <Action>IfThenElse</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>$VCU_Drive_mode == 0</Text>
+        <Metadata xsi:type="IfThenElseMetadata">
+          <Condition>$VCU_Drive_mode == 0</Condition>
+          <ExpressionEditMode>Easy</ExpressionEditMode>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_0c31c339cd184fb39b809dbf4ecbfb03" Name="Then" TestType="TCG">
+      <Path>/If</Path>
+      <Action>IfThenElse</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_df3537ee1ead4576a2ce63d3345c1ee9" Name="Else" TestType="TCG">
+      <Path>/If</Path>
+      <Action>IfThenElse</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_650edefddf814a59b7f3be215dd7adee" Name="Switch" TestType="TCG">
+      <Path>/If/Else</Path>
+      <Action>Group</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_f98ea50ac69041ffaf8e0fa375ba1e46" Name="Write" TestType="TCS">
+      <Path>/If/Else/Switch</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>switch</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_5482d18a1d6e424ab27d026486f03f63" Name="Wait" TestType="TCS">
+      <Path>/If/Else/Switch</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>200 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>200</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_5c1344c6b9964961b657b317c2050576" Name="Write" TestType="TCS">
+      <Path>/If/Else/Switch</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>switch</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_5372f255861a4dcf94554d188654b716" Name="Wait" TestType="TCS">
+      <Path>/If/Else/Switch</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>200 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>200</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_f08eb2d371d24eae86f8936602bca339" Name="Write" TestType="TCS">
+      <Path>/If/Else/Switch</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/DriveMode</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>switch</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_4090756b9c5e4346ba98ec6cdc649ac9" Name="Wait" TestType="TCS">
+      <Path>/If/Else/Switch</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>200 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>200</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_adf23721790f454f8cd7d92f531f7034" Name="Read" TestType="TCS">
+      <Path>/If/Else</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Power/VCU_Geaeral_CAN1/VCU_Drive_mode, Timeout = 100</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Power/VCU_Geaeral_CAN1/VCU_Drive_mode</Mapping>
+          <Variable>VCU_Drive_mode</Variable>
+          <Constant />
+          <Value />
+          <Timeout>100</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>VCU_Drive_mode</Value>
+      <Comment>读取当前驾驶模式</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+  </TestSteps>
+</TestCase>
