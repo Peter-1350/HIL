@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<TestCase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>test_5fd6b3dec248432aaf18e7b38f1b48bf</ID>
+  <Mapping />
+  <Variables />
+  <Constants />
+  <Namespaces />
+  <InitSteps />
+  <StopSteps />
+  <TestSteps />
+</TestCase>
