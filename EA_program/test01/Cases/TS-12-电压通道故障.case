@@ -5714,8 +5714,7 @@
         </Metadata>
       </Parameter>
       <Value>BMS_BatteryCurrent</Value>
-      <Comment>
-</Comment>
+      <Comment />
       <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_065f50f00f9346fbabe95321d4ba0e39" Name="Write" TestType="TCS">

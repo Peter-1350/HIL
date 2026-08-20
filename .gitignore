@@ -3,3 +3,7 @@ data
 demo
 RCP_DEMO
 VCU_HIL_RCP
+EA_program/test01/*
+!EA_program/test01/Cases
+!EA_program/test01/Plans
+!EA_program/test01/Recorder
