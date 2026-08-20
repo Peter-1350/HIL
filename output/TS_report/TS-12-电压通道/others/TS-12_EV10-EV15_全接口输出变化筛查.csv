@@ -1,0 +1,309 @@
+﻿输出接口,最小值,最大值,总变化次数,注入后窗口内变化次数,窗口内变化时刻_s,取值摘要
+env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Driveline.FrontMotSpd,-6.58767e-29,2.50444e-28,0,0,,min=-6.58767e-29; max=2.50444e-28; distinct=490
+env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Driveline.RearMotSpd,-3.16194e-34,9.50008e-34,0,0,,min=-3.16194e-34; max=9.50008e-34; distinct=490
+env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Powertrain.FMotor.Motor.MotTrq,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Powertrain.FMotor.Motor.MotTrqManagement.FTrq,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Powertrain.RMotor.Motor.MotTrqManagement.RTrq,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Vehicle1.Vehspeed,0.0116341,0.0116343,0,0,,min=0.0116341; max=0.0116343; distinct=490
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_AverageTemp_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_ChargingTime_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_ChgConnectSts_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_Faultcode_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_OutputCurr_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_OutputVoltage_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_PDUSts_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_WorkingMode_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.NTC_AverageTemp_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1_MsgEnable.DCDC1_1_MsgDisable,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_CANError_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_Derating_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_faultlevel_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_InputCurrent_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_InputVoltage_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OperatingMode_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OuputOpencircuit_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OutCurrent_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OutVoltage_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OverIV_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OverOC_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OverOV_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OverTemp_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_RealityTemp_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_stsError_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_UnderIV_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_UnderOV_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1_MsgEnable.DCDC_1_MsgDisable,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_CANMsgFault_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_ChargeCurrent_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_ChargeVoltage_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_FanFault_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_HighCurrOutputFault_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_HighVoltOutputOverVolt_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_HighVoltOutputShortCircuit_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_HighVoltOutputUnderVolt_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_InputOverVolt_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_InputUnderVolt_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_LowVoltOTFault_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_NoBattery_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_OverTemp_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_State_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1_MsgEnable.OBC_1_MsgDisable,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_ACVolageSts_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_BattConnectSts_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_CommOverTime_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_CP_Sts_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_HWSts_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_HWVersion_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_SoftVersion_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_TempSts_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_Temp_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2_MsgEnable.OBC_2_MsgDisable,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_3.OBC_ACInputVoltage_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_3.OBC_BatteryVoltage_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_3.OBC_CurrentLimit_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_3.OBC_ErrorFlag_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_3.OBC_PFCVoltage_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_3_MsgEnable.OBC_3_MsgDisable,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_ACInputCurrent_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_BMSWakeSts_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_CCSts_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_ChrgPiletMaxCurr_ToBus,60,60,0,0,,{60}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_ChrgPortTemp1_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_ChrgPortTemp2_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_CPDuty_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_Faultlevel_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_S2Sts_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.Unused_ToBus,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4_MsgEnable.OBC_4_MsgDisable,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output1.BRKWeak,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output1.U_DO_Ch1_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output2.BRKStr,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output2.U_DO_Ch2_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output3.U_DO_Ch3_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output3.U_DO_Ch3_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output4.U_DO_Ch4_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output4.U_DO_Ch4_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output5.U_DO_Ch5_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output5.U_DO_Ch5_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output6.U_DO_Ch6_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output6.U_DO_Ch6_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output7.U_DO_Ch7_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output7.U_DO_Ch7_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output8.U_DO_Ch8_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output8.U_DO_Ch8_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output9.U_DO_Ch9_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output9.U_DO_Ch9_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output10.U_DO_Ch10_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output10.U_DO_Ch10_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output11.U_DO_Ch11_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output11.U_DO_Ch11_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output12.U_DO_Ch12_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output12.U_DO_Ch12_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output13.U_DO_Ch13_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output13.U_DO_Ch13_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output14.U_DO_Ch14_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output14.U_DO_Ch14_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output15.U_DO_Ch15_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output15.U_DO_Ch15_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output16.U_DO_Ch16_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output16.U_DO_Ch16_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output17.U_DO_Ch17_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output17.U_DO_Ch17_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output18.U_DO_Ch18_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output18.U_DO_Ch18_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output19.U_DO_Ch19_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output19.U_DO_Ch19_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output20.U_DO_Ch20_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output20.U_DO_Ch20_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output21.U_DO_Ch21_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output21.U_DO_Ch21_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output22.U_DO_Ch22_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output22.U_DO_Ch22_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output23.U_DO_Ch23_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output23.U_DO_Ch23_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output24.U_DO_Ch24_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output24.U_DO_Ch24_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output25.U_DO_Ch25_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output25.U_DO_Ch25_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output26.U_DO_Ch26_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output26.U_DO_Ch26_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output27.U_DO_Ch27_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output27.U_DO_Ch27_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output28.U_DO_Ch28_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output28.U_DO_Ch28_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output29.U_DO_Ch29_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output29.U_DO_Ch29_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output30.U_DO_Ch30_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output30.U_DO_Ch30_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output31.U_DO_Ch31_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output31.U_DO_Ch31_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output32.U_DO_Ch32_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output32.U_DO_Ch32_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output33.U_DO_Ch33_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output33.U_DO_Ch33_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output34.U_DO_Ch34_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output34.U_DO_Ch34_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output35.U_DO_Ch35_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output35.U_DO_Ch35_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output36.U_DO_Ch36_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output36.U_DO_Ch36_OutCmd_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output1.U_Ch1_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output1.U_Ch1_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output1.U_Ch1_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output1.U_Ch1_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output2.U_Ch2_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output2.U_Ch2_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output2.U_Ch2_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output2.U_Ch2_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output3.U_Ch3_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output3.U_Ch3_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output3.U_Ch3_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output3.U_Ch3_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output4.U_Ch4_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output4.U_Ch4_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output4.U_Ch4_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output4.U_Ch4_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output5.U_Ch5_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output5.U_Ch5_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output5.U_Ch5_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output5.U_Ch5_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output6.U_Ch6_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output6.U_Ch6_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output6.U_Ch6_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output6.U_Ch6_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output7.U_Ch7_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output7.U_Ch7_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output7.U_Ch7_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output7.U_Ch7_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output8.U_Ch8_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output8.U_Ch8_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output8.U_Ch8_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output8.U_Ch8_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output9.U_Ch9_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output9.U_Ch9_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output9.U_Ch9_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output9.U_Ch9_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output10.U_Ch10_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output10.U_Ch10_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output10.U_Ch10_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output10.U_Ch10_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output11.U_Ch11_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output11.U_Ch11_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output11.U_Ch11_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output11.U_Ch11_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output12.U_Ch12_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output12.U_Ch12_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output12.U_Ch12_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output12.U_Ch12_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output13.U_Ch13_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output13.U_Ch13_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output13.U_Ch13_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output13.U_Ch13_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output14.U_Ch14_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output14.U_Ch14_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output14.U_Ch14_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output14.U_Ch14_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output15.U_Ch15_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output15.U_Ch15_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output15.U_Ch15_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output15.U_Ch15_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output16.U_Ch16_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output16.U_Ch16_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output16.U_Ch16_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output16.U_Ch16_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output17.U_Ch17_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output17.U_Ch17_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output17.U_Ch17_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output17.U_Ch17_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output18.U_Ch18_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output18.U_Ch18_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output18.U_Ch18_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output18.U_Ch18_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output19.U_Ch19_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output19.U_Ch19_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output19.U_Ch19_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output19.U_Ch19_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output20.U_Ch20_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output20.U_Ch20_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output20.U_Ch20_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output20.U_Ch20_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output21.U_Ch21_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output21.U_Ch21_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output21.U_Ch21_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output21.U_Ch21_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output22.U_Ch22_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output22.U_Ch22_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output22.U_Ch22_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output22.U_Ch22_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output23.U_Ch23_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output23.U_Ch23_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output23.U_Ch23_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output23.U_Ch23_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output24.U_Ch24_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output24.U_Ch24_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output24.U_Ch24_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output24.U_Ch24_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output25.U_Ch25_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output25.U_Ch25_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output25.U_Ch25_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output25.U_Ch25_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output26.U_Ch26_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output26.U_Ch26_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output26.U_Ch26_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output26.U_Ch26_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output27.U_Ch27_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output27.U_Ch27_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output27.U_Ch27_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output27.U_Ch27_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output28.U_Ch28_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output28.U_Ch28_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output28.U_Ch28_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output28.U_Ch28_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output29.U_Ch29_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output29.U_Ch29_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output29.U_Ch29_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output29.U_Ch29_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output30.U_Ch30_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output30.U_Ch30_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output30.U_Ch30_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output30.U_Ch30_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output31.U_Ch31_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output31.U_Ch31_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output31.U_Ch31_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output31.U_Ch31_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output32.U_Ch32_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output32.U_Ch32_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output32.U_Ch32_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output32.U_Ch32_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output33.U_Ch33_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output33.U_Ch33_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output33.U_Ch33_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output33.U_Ch33_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output34.U_Ch34_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output34.U_Ch34_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output34.U_Ch34_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output34.U_Ch34_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output35.U_Ch35_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output35.U_Ch35_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output35.U_Ch35_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output35.U_Ch35_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output36.U_Ch36_PWM_Out_Amplitude_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output36.U_Ch36_PWM_Out_Duty_Ratio_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output36.U_Ch36_PWM_Out_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output36.U_Ch36_PWM_Out_Frequency_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay4.GearR_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay5.GearN_Out,2,2,0,0,,{2}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay6.GearD_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay7.GearP_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay8.DriveMode_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay9.BrakeOpen1_Out,0,2,2,0,,"{0, 2}"
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay10.BrakeClose1_Out,0,2,2,0,,"{0, 2}"
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay11.BrakeClose2_Out,0,2,2,0,,"{0, 2}"
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay12.BrakeOpen2_Out,0,2,2,0,,"{0, 2}"
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay25.Model_Disabled_Out,1,2,1,0,,"{1, 2}"
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output1.BRK_Main_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output1.BRK_Main_Out,1,4,2,0,,"{1, 4}"
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output1 .PUMP_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output1 .PUMP_Out,0,0,0,0,,{0}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output4.Btemp_Enable_Out,1,1,0,0,,{1}
+env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output4.Btemp_Out,0,0,0,0,,{0}

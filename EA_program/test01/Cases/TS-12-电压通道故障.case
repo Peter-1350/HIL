@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TestCase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ID>test_4a607dc926114604827214fcce5781bb</ID>
+  <ID>test_feb5289566b5407691f916afd2a00d33</ID>
   <Mapping>
     <MappingItem Name="[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc" Category="VCU_HIL : env_1">
       <RealTargetSource>env_1_Design/Veh_1/InPort/Veh_1.Driver.BrakePedal_perc</RealTargetSource>
@@ -1252,12 +1252,12 @@
       <Path>/电压故障/present_V/N1</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch1_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch1_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch1_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -1340,12 +1340,12 @@
       <Path>/电压故障/present_V/N2</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch2_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch2_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch2_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -1428,12 +1428,12 @@
       <Path>/电压故障/present_V/N3</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch3_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch3_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch3_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -1516,12 +1516,12 @@
       <Path>/电压故障/present_V/N4</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch4_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch4_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch4_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -1604,12 +1604,12 @@
       <Path>/电压故障/present_V/N5</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch5_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch5_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch5_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -1692,12 +1692,12 @@
       <Path>/电压故障/present_V/N6</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch6_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch6_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch6_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -1780,12 +1780,12 @@
       <Path>/电压故障/present_V/N7</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch7_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch7_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch7_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -1868,12 +1868,12 @@
       <Path>/电压故障/present_V/N8</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch8_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch8_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch8_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -1956,12 +1956,12 @@
       <Path>/电压故障/present_V/N9</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch9_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch9_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch9_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -2044,12 +2044,12 @@
       <Path>/电压故障/present_V/N10</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch10_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch10_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch10_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -2132,12 +2132,12 @@
       <Path>/电压故障/present_V/N11</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch11_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch11_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch11_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -2220,12 +2220,12 @@
       <Path>/电压故障/present_V/N12</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch12_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch12_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch12_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -2308,12 +2308,12 @@
       <Path>/电压故障/present_V/N13</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch13_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch13_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch13_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -2396,12 +2396,12 @@
       <Path>/电压故障/present_V/N14</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch14_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch14_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch14_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -2484,12 +2484,12 @@
       <Path>/电压故障/present_V/N15</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch15_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch15_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch15_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -2572,12 +2572,12 @@
       <Path>/电压故障/present_V/N16</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch16_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch16_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch16_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -2660,12 +2660,12 @@
       <Path>/电压故障/present_V/N17</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch17_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch17_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch17_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -2748,12 +2748,12 @@
       <Path>/电压故障/present_V/N18</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch18_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch18_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch18_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -2836,12 +2836,12 @@
       <Path>/电压故障/present_V/N19</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch19_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch19_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch19_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -2924,12 +2924,12 @@
       <Path>/电压故障/present_V/N20</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch20_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch20_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch20_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -3012,12 +3012,12 @@
       <Path>/电压故障/present_V/N21</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch21_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch21_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch21_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -3100,12 +3100,12 @@
       <Path>/电压故障/present_V/N22</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch22_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch22_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch22_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -3188,12 +3188,12 @@
       <Path>/电压故障/present_V/N23</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch23_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch23_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch23_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -3276,12 +3276,12 @@
       <Path>/电压故障/present_V/N24</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch24_Present_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch24_Present_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch24_Present_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
@@ -3339,14 +3339,14 @@
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_3b9d596f7fe940eb869d4206942fde5b" Name="N1" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_99260e3913944359bd3a8368d866a810" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N1</Path>
@@ -3365,24 +3365,24 @@
       </Parameter>
       <Value>Present_V1</Value>
       <Comment>P_V1</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_01b128e8ecab4910a4c68c77e75aa1fd" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N1</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch1_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch1_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch1_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N1</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_fdc288e5bb3b42bd9a521888f858979d" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N1</Path>
@@ -3396,7 +3396,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_6bf0a028171146c398392cd1675fc28d" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N1</Path>
@@ -3413,7 +3413,7 @@
       </Parameter>
       <Value />
       <Comment>N1</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_73c02aee7bf842ec98aba274aac2537c" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N1</Path>
@@ -3427,14 +3427,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_b62065fdbe3e44438152ec28651293a8" Name="N2" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_44c8d94cba294c3eaf81515484386611" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N2</Path>
@@ -3453,24 +3453,24 @@
       </Parameter>
       <Value>Present_V2</Value>
       <Comment>P_V2</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_25992c8dfabc495bb0dac00b128e0f67" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N2</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch2_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch2_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch2_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N1</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_b5445a2416044f9b8fd43cfb85c763da" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N2</Path>
@@ -3484,7 +3484,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_f08923b0bdbc4f9eb31bb2edda06891f" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N2</Path>
@@ -3501,7 +3501,7 @@
       </Parameter>
       <Value />
       <Comment>N2</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_b823d9517eb7458c8d93881e645d6a39" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N2</Path>
@@ -3515,14 +3515,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_a97af42e671b4005a109f44e9304ed44" Name="N3" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_9bc785e9000549e4aae8d18af79e7c5b" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N3</Path>
@@ -3541,24 +3541,24 @@
       </Parameter>
       <Value>Present_V3</Value>
       <Comment>P_V3</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_d96df9ef46714cdcaa6ab86bfddb8f25" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N3</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch3_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch3_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch3_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N3</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_c2bde2b567b449fdb5e9535461724c66" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N3</Path>
@@ -3572,7 +3572,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_02970c693d0d4d4eacaaeebcf664f970" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N3</Path>
@@ -3589,7 +3589,7 @@
       </Parameter>
       <Value />
       <Comment>N3</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_e9138b2799fa45dfa21f33b0f211a1d4" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N3</Path>
@@ -3603,14 +3603,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_f9ea08c90d2543209cec738da31e2f1e" Name="N4" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_367f729e34734fa38102acc4f3069f86" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N4</Path>
@@ -3629,24 +3629,24 @@
       </Parameter>
       <Value>Present_V4</Value>
       <Comment>P_V4</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_f1be07afec0b42ddaafb8cf525bfd522" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N4</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch4_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch4_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch4_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N4</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_78395584f9f04e3b8399e95153915bd1" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N4</Path>
@@ -3660,7 +3660,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_293a132da04b42bd95b24b2ad3cac03d" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N4</Path>
@@ -3677,7 +3677,7 @@
       </Parameter>
       <Value />
       <Comment>N4</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_c09b515f24b541ca9019fd7874c27722" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N4</Path>
@@ -3691,14 +3691,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_0a59898ada774f22a281a0bfba7fb9f8" Name="N5" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_65e17027cc294120924d1ad22103af13" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N5</Path>
@@ -3717,24 +3717,24 @@
       </Parameter>
       <Value>Present_V5</Value>
       <Comment>P_V5</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_d0f1e32c93e440eb8e025690204fbb30" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N5</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch5_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch5_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch5_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N5</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_e8ce436609184bcb949e48be70c264a8" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N5</Path>
@@ -3748,7 +3748,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_30704475f7004da2a41af004746ed442" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N5</Path>
@@ -3765,7 +3765,7 @@
       </Parameter>
       <Value />
       <Comment>N5</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_9b8ae30da7664b739fc029f64af907fb" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N5</Path>
@@ -3779,14 +3779,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_2c7f862111e14aeead4cda7e9d691618" Name="N6" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_a0273d828de74206a2ce6a4992d62bb7" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N6</Path>
@@ -3805,24 +3805,24 @@
       </Parameter>
       <Value>Present_V6</Value>
       <Comment>P_V6</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_58f9eb1f8a624d44881f716826368ec3" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N6</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch6_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch6_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch6_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N6</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_7554eb5a96284331872844d8f466f8bd" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N6</Path>
@@ -3836,7 +3836,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_83e002a0363c4392915f993c5995b70d" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N6</Path>
@@ -3853,7 +3853,7 @@
       </Parameter>
       <Value />
       <Comment>N6</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_df580f5c464e4a47bbcd32410ae4e279" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N6</Path>
@@ -3867,14 +3867,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_c237fc7580dd4db9a28fcdb59c464bea" Name="N7" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_0054587369c6432ca26fe89613b0ac4b" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N7</Path>
@@ -3893,24 +3893,24 @@
       </Parameter>
       <Value>Present_V7</Value>
       <Comment>P_V7</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_9daeb40b33b5461e957383747428e398" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N7</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch7_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch7_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch7_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N7</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_0ed14b6f479645d1845ba9a6b0cbae32" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N7</Path>
@@ -3924,7 +3924,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_c970a9c219ea4521af743a5ecae7e9e2" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N7</Path>
@@ -3941,7 +3941,7 @@
       </Parameter>
       <Value />
       <Comment>N7</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_69ce5ba5181e4aa0a514c41950a0e2cd" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N7</Path>
@@ -3955,14 +3955,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_7a3a4619be074a2a99d82864218ee577" Name="N8" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_536eb1512c5b4cb0838ad0220e853dab" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N8</Path>
@@ -3981,24 +3981,24 @@
       </Parameter>
       <Value>Present_V8</Value>
       <Comment>P_V8</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_5521b26aafc3407e96c90bae27c26a63" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N8</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch8_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch8_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch8_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N8</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_3cd6e9665c714883b26e52eab93478ac" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N8</Path>
@@ -4012,7 +4012,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_46bac465ea354a2882898370f3f6532f" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N8</Path>
@@ -4029,7 +4029,7 @@
       </Parameter>
       <Value />
       <Comment>N8</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_1317c09d207245a58ceaf0f9ea784882" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N8</Path>
@@ -4043,14 +4043,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_668a19c4e9074c128da79059010f222c" Name="N9" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_33d2acb6875143619bd93cf5f046e78c" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N9</Path>
@@ -4069,24 +4069,24 @@
       </Parameter>
       <Value>Present_V9</Value>
       <Comment>P_V9</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_3515ce728d334ca1b68b91f0e9b1b57e" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N9</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch9_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch9_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch9_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N9</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_13e5932f795f4e6bb656e74345157231" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N9</Path>
@@ -4100,7 +4100,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_3e6ee48ac72a4bf58a9035b60feb944b" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N9</Path>
@@ -4117,7 +4117,7 @@
       </Parameter>
       <Value />
       <Comment>N9</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_bb6a342361e441dcac6b38b9c20dc2f1" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N9</Path>
@@ -4131,14 +4131,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_bf98dc261af146f58bf441bc3dc5b82e" Name="N10" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_a1c561294f2a4c89904af755018cd19c" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N10</Path>
@@ -4157,24 +4157,24 @@
       </Parameter>
       <Value>Present_V10</Value>
       <Comment>P_V10</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_ff150fae35014af2b44002aff18c3839" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N10</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch10_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch10_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch10_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N10</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_52d51214eab84033995897851c29a4a1" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N10</Path>
@@ -4188,7 +4188,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_f4fd7e89139a4d73a84b84009d34084c" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N10</Path>
@@ -4205,7 +4205,7 @@
       </Parameter>
       <Value />
       <Comment>N10</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_6cf0520c5e44464fac1a6540509c5088" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N10</Path>
@@ -4219,14 +4219,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_6c68d386b38543f292e2b371816d5cf8" Name="N11" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_8cc22b40857b46bf89a839c2526c88db" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N11</Path>
@@ -4245,24 +4245,24 @@
       </Parameter>
       <Value>Present_V11</Value>
       <Comment>P_V11</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_383e8caa80bd4df8a0ba33ccf730d630" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N11</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch11_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch11_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch11_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N11</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_8b17fbdd6e0f4253a8624faa0e3ef34a" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N11</Path>
@@ -4276,7 +4276,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_4da4f9a0aa344bbf8e007736f1555115" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N11</Path>
@@ -4293,7 +4293,7 @@
       </Parameter>
       <Value />
       <Comment>N11</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_e098c1d551f04605a96d7ab8b88820a8" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N11</Path>
@@ -4307,14 +4307,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_778077315a8e40519c70693a8a4191cd" Name="N12" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_3246de39a21442328fd88fa04f2ebc92" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N12</Path>
@@ -4333,24 +4333,24 @@
       </Parameter>
       <Value>Present_V12</Value>
       <Comment>P_V12</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_90a2894086de42e59e70cc80dbee2f87" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N12</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch12_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch12_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch12_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N12</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_9b96faaa5a1a4db7a26a17cb8d8a5487" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N12</Path>
@@ -4364,7 +4364,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_926ade4466db47678d948c5c29395cb0" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N12</Path>
@@ -4381,7 +4381,7 @@
       </Parameter>
       <Value />
       <Comment>N12</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_475126a0b6024ef6ae2d1aebacce1365" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N12</Path>
@@ -4395,14 +4395,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_492296981c2042af885deaddc874fd80" Name="N13" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_e6fb56f023284fae8d8c6398bbcde346" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N13</Path>
@@ -4421,24 +4421,24 @@
       </Parameter>
       <Value>Present_V13</Value>
       <Comment>P_V13</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_dcb0f2be7c2f4fcdba0988996b3ddbb2" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N13</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch13_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch13_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch13_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N13</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_336f23881e2b4f5ab0c34ed68a9a161c" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N13</Path>
@@ -4452,7 +4452,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_d7761723c6124d6aba773cc95321d21c" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N13</Path>
@@ -4469,7 +4469,7 @@
       </Parameter>
       <Value />
       <Comment>N13</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_a88f540bf7cc43cd95b8ca3da0d097ea" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N13</Path>
@@ -4483,14 +4483,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_3e4222df3d234d5cb3a21cba75924f59" Name="N14" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_006378924fc04b3a817dbaa333437839" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N14</Path>
@@ -4509,24 +4509,24 @@
       </Parameter>
       <Value>Present_V14</Value>
       <Comment>P_V14</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_97df679a3b354787afb982bb2c5eae89" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N14</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch14_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch14_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch14_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N14</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_a73e28ab213c4c328f12475148ee79f4" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N14</Path>
@@ -4540,7 +4540,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_2279004fca6b43fc9c29f6ea64b132fb" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N14</Path>
@@ -4557,7 +4557,7 @@
       </Parameter>
       <Value />
       <Comment>N14</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_0b98fd996ab843f99e2a4f9062a46943" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N14</Path>
@@ -4571,14 +4571,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_8a5736e72c2044fdb1d8dc293054728c" Name="N15" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_0cf77156811849ad98f2ca6a574dce64" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N15</Path>
@@ -4597,24 +4597,24 @@
       </Parameter>
       <Value>Present_V15</Value>
       <Comment>P_V15</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_712f102dc9c348b286c8d60d782c89b0" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N15</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch15_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch15_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch15_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N15</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_601dfb413c1a4bb69a65054db06eb126" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N15</Path>
@@ -4628,7 +4628,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_060ff910ddc94b8f895c03124d66d673" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N15</Path>
@@ -4645,7 +4645,7 @@
       </Parameter>
       <Value />
       <Comment>N15</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_ab5d21b7e62f4ae6a7e0b60c07044983" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N15</Path>
@@ -4659,14 +4659,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_4daab8043a6042bf9396157042e7ba0d" Name="N16" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_822cd3149939404c8fea2cb764776fc5" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N16</Path>
@@ -4685,24 +4685,24 @@
       </Parameter>
       <Value>Present_V16</Value>
       <Comment>P_V16</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_6110814eb7834a97868359726c411be5" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N16</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch16_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch16_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch16_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N16</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_f44bee53e5f6487f95ba8591d97497be" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N16</Path>
@@ -4716,7 +4716,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_dbcc8544fed84e37b62c91ac2fe718ca" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N16</Path>
@@ -4733,7 +4733,7 @@
       </Parameter>
       <Value />
       <Comment>N16</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_5935748fdeb445e5a4084812d4bda92f" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N16</Path>
@@ -4747,14 +4747,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_2218e06b91cf416bb43ff3b19710d066" Name="N17" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_007e413ea0504e41ada602cb5e1a92af" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N17</Path>
@@ -4773,24 +4773,24 @@
       </Parameter>
       <Value>Present_V17</Value>
       <Comment>P_V17</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_2848111106614b21ad44fc7561ffd815" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N17</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch17_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch17_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch17_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N17</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_ba7b2055e289466384ef446b392f7ea4" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N17</Path>
@@ -4804,7 +4804,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_4cfba4bbdb14494d855a49256ed40cf9" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N17</Path>
@@ -4821,7 +4821,7 @@
       </Parameter>
       <Value />
       <Comment>N17</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_90c50960b0af4f77b880ccfecc9390fa" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N17</Path>
@@ -4835,14 +4835,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_214b52352b664bc28228841be40fe4c4" Name="N18" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_c88c4273c5814aac80b161be33ddc924" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N18</Path>
@@ -4861,24 +4861,24 @@
       </Parameter>
       <Value>Present_V18</Value>
       <Comment>P_V18</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_ea16f1ecc521492eb37f75fa32a566ad" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N18</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch18_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch18_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch18_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N18</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_d1fa6e0ccfc649d38d5d7e8b91aa3b54" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N18</Path>
@@ -4892,7 +4892,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_ebd5a8e16fd84be8b75c1c0f009e89b8" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N18</Path>
@@ -4909,7 +4909,7 @@
       </Parameter>
       <Value />
       <Comment>N18</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_2af2df9454ba434985879d84d3b8aa21" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N18</Path>
@@ -4923,14 +4923,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_60237b87c1fa452ca67dc1913cb7442f" Name="N19" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_d2dacfd22ab34e86a6f5022ecef0cb57" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N19</Path>
@@ -4949,24 +4949,24 @@
       </Parameter>
       <Value>Present_V19</Value>
       <Comment>P_V19</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_025bcb65bfdd4551aa7e6a8e888a0d2a" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N19</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch19_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch19_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch19_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N19</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_0fd5a630c67f47058a975c603458cef1" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N19</Path>
@@ -4980,7 +4980,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_154643bc3a2c412280ff2f9e9733d9fe" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N19</Path>
@@ -4997,7 +4997,7 @@
       </Parameter>
       <Value />
       <Comment>N19</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_e237e7f0ad6049c587b6b93a4a87dc86" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N19</Path>
@@ -5011,14 +5011,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_40b3a485edb8402a8cc2930db32b0d15" Name="N20" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_6327d9c542084fec94ae9c27ba57a3ce" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N20</Path>
@@ -5037,24 +5037,24 @@
       </Parameter>
       <Value>Present_V20</Value>
       <Comment>P_V20</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_dc252de0d31742e88b0b53d34b1fd264" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N20</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch20_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch20_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch20_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N20</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_cbe9a032a4bd4dd98038d52b600f9cf5" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N20</Path>
@@ -5068,7 +5068,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_f83f8aec4c1b4220a350a2abaf0be054" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N20</Path>
@@ -5085,7 +5085,7 @@
       </Parameter>
       <Value />
       <Comment>N20</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_b73ec74421f0457cb8021736e21ccd00" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N20</Path>
@@ -5099,14 +5099,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_fe427c0d59474648bcc3eb8cb1bd6d0c" Name="N21" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_23c07110e5df419bac79875f927bf98f" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N21</Path>
@@ -5125,24 +5125,24 @@
       </Parameter>
       <Value>Present_V21</Value>
       <Comment>P_V21</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_43298e13a2a34184882f38a8f87e086e" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N21</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch21_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch21_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch21_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N21</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_33d520476c12466c95c49ef4adc5236f" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N21</Path>
@@ -5156,7 +5156,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_a4afb4057a254ea6828b7c27b8b7c938" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N21</Path>
@@ -5173,7 +5173,7 @@
       </Parameter>
       <Value />
       <Comment>N21</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_1823a6330e0c4486a3ba26dfab260633" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N21</Path>
@@ -5187,14 +5187,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_18ef05f284d4433e9b6bca4ef7081d79" Name="N22" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_6f68d98fcafe4f70b678d1e74954ed3b" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N22</Path>
@@ -5213,24 +5213,24 @@
       </Parameter>
       <Value>Present_V22</Value>
       <Comment>P_V22</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_716f6a342778448a847af37ca10a6701" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N22</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch22_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch22_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch22_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N22</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_a74e453c0f4c428a82e221d347357617" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N22</Path>
@@ -5244,7 +5244,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_12153f4ecd9242f18f138ac984e26184" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N22</Path>
@@ -5261,7 +5261,7 @@
       </Parameter>
       <Value />
       <Comment>N22</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_d88b4a8f769e4f04a2530b02f9d426ea" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N22</Path>
@@ -5275,14 +5275,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_d235cd4500074e14ab11718fc9d594bc" Name="N23" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_52c5301b05da42648beb06ae194aa5c8" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N23</Path>
@@ -5301,24 +5301,24 @@
       </Parameter>
       <Value>Present_V23</Value>
       <Comment>P_V23</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_b789c7d07739435db5dbd9dbff79e194" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N23</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch23_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch23_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch23_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N23</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_9242f21aface45b2bdc9a83ce08e7ddd" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N23</Path>
@@ -5332,7 +5332,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_b754f7b73d5540a5a8b187400915eec0" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N23</Path>
@@ -5349,7 +5349,7 @@
       </Parameter>
       <Value />
       <Comment>N23</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_12ff9382452c4598a71da3979d45aa52" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N23</Path>
@@ -5363,14 +5363,14 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_a4527906c37948ae862cdd361e793108" Name="N24" TestType="TCG">
       <Path>/电压故障/average_V</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_f6ff389d6a954404b0944230713f77f1" Name="Read" TestType="TCS">
       <Path>/电压故障/average_V/N24</Path>
@@ -5389,24 +5389,24 @@
       </Parameter>
       <Value>Present_V24</Value>
       <Comment>P_V24</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_dbfd07d199224702bf0e9057db370672" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N24</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
-        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch24_Average_Voltage = 100</Text>
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch24_Average_Voltage = 1</Text>
         <Metadata xsi:type="Metadata">
           <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/HW/Voltage Input/Y_Ch24_Average_Voltage</Mapping>
           <Constant />
           <IsValueInExpression>true</IsValueInExpression>
-          <Value>100</Value>
+          <Value>1</Value>
           <IsPythonMethod>false</IsPythonMethod>
         </Metadata>
       </Parameter>
       <Value />
       <Comment>N24</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_1bf421e3bd824d3c9a2be24ce0fe03bb" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N24</Path>
@@ -5420,7 +5420,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_106d06629a93447e85183caf5f9e8b81" Name="Write" TestType="TCS">
       <Path>/电压故障/average_V/N24</Path>
@@ -5437,7 +5437,7 @@
       </Parameter>
       <Value />
       <Comment>N24</Comment>
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
     <StepItem ID="test_50425a6ff74944278d03d94fb390851d" Name="Wait" TestType="TCS">
       <Path>/电压故障/average_V/N24</Path>
@@ -5451,17 +5451,24 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>true</IsCommented>
+      <IsCommented>false</IsCommented>
     </StepItem>
-    <StepItem ID="test_0503bd0b3d9a4417ba32c4b2021ecd56" Name="电池包电压" TestType="TCG">
+    <StepItem ID="test_968f8e54977b410bb514e599ab3f276b" Name="Other" TestType="TCG">
       <Path>/电压故障</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
+    </StepItem>
+    <StepItem ID="test_0503bd0b3d9a4417ba32c4b2021ecd56" Name="电池包电压" TestType="TCG">
+      <Path>/电压故障/Other</Path>
+      <Action>Group</Action>
+      <Value />
+      <Comment />
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_c522fa70685f4f77ab9fba7fc6913b3a" Name="Read" TestType="TCS">
-      <Path>/电压故障/电池包电压</Path>
+      <Path>/电压故障/Other/电池包电压</Path>
       <Action>Read</Action>
       <Parameter xsi:type="Parameter">
         <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_3/BMS_BattVolt, Timeout = 0</Text>
@@ -5477,10 +5484,10 @@
       </Parameter>
       <Value>BMS_BattVolt</Value>
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_041f28f608ed4de78fc8fb5f6a24be31" Name="Write" TestType="TCS">
-      <Path>/电压故障/电池包电压</Path>
+      <Path>/电压故障/Other/电池包电压</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_3/BMS_BattVolt = 10</Text>
@@ -5494,10 +5501,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_2646172ba1624033a82d27862de700ef" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电池包电压</Path>
+      <Path>/电压故障/Other/电池包电压</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5508,10 +5515,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_b5b3f5c1f564452fa5b94e47322cbfbf" Name="Write" TestType="TCS">
-      <Path>/电压故障/电池包电压</Path>
+      <Path>/电压故障/Other/电池包电压</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_3/BMS_BattVolt = -10</Text>
@@ -5525,10 +5532,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_56f0b8bf491c46598dcb984dc0a99c79" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电池包电压</Path>
+      <Path>/电压故障/Other/电池包电压</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5539,10 +5546,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_8dadcf08d622432081cfd3b4b62e38d4" Name="Write" TestType="TCS">
-      <Path>/电压故障/电池包电压</Path>
+      <Path>/电压故障/Other/电池包电压</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_3/BMS_BattVolt = $BMS_BattVolt</Text>
@@ -5556,10 +5563,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_921bc42ff78e486a93e30cd641175fb8" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电池包电压</Path>
+      <Path>/电压故障/Other/电池包电压</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5570,17 +5577,17 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_f0234de73e36434599c9145841979f81" Name="直流母线电压" TestType="TCG">
-      <Path>/电压故障</Path>
+      <Path>/电压故障/Other</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_a45722324f094659bad1ca40d31d7f05" Name="Read" TestType="TCS">
-      <Path>/电压故障/直流母线电压</Path>
+      <Path>/电压故障/Other/直流母线电压</Path>
       <Action>Read</Action>
       <Parameter xsi:type="Parameter">
         <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_3/BMS_DCBusVoltage, Timeout = 0</Text>
@@ -5596,10 +5603,10 @@
       </Parameter>
       <Value>BMS_DCBusVoltage</Value>
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_860f75e420894d96801e114b7eb9da63" Name="Write" TestType="TCS">
-      <Path>/电压故障/直流母线电压</Path>
+      <Path>/电压故障/Other/直流母线电压</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_3/BMS_DCBusVoltage = 10</Text>
@@ -5613,10 +5620,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_bceb715b310142828ab2069cd4a4e847" Name="Wait" TestType="TCS">
-      <Path>/电压故障/直流母线电压</Path>
+      <Path>/电压故障/Other/直流母线电压</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5627,10 +5634,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_19ced1a669584c6aac59434efa0ead6e" Name="Write" TestType="TCS">
-      <Path>/电压故障/直流母线电压</Path>
+      <Path>/电压故障/Other/直流母线电压</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_3/BMS_DCBusVoltage = -10</Text>
@@ -5644,10 +5651,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_5a20a08915d648ab9531fe0b17809ba8" Name="Wait" TestType="TCS">
-      <Path>/电压故障/直流母线电压</Path>
+      <Path>/电压故障/Other/直流母线电压</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5658,10 +5665,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_5081e9aa89744bf7a9e249f831d86730" Name="Write" TestType="TCS">
-      <Path>/电压故障/直流母线电压</Path>
+      <Path>/电压故障/Other/直流母线电压</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_3/BMS_DCBusVoltage = $BMS_DCBusVoltage</Text>
@@ -5675,10 +5682,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_686ea928b861430095a736eb84c590d1" Name="Wait" TestType="TCS">
-      <Path>/电压故障/直流母线电压</Path>
+      <Path>/电压故障/Other/直流母线电压</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5689,17 +5696,17 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_19dce5abf9914af5a406a9338684c459" Name="电池电流" TestType="TCG">
-      <Path>/电压故障</Path>
+      <Path>/电压故障/Other</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_afd3762ba52447a6b0559d548613c219" Name="Read" TestType="TCS">
-      <Path>/电压故障/电池电流</Path>
+      <Path>/电压故障/Other/电池电流</Path>
       <Action>Read</Action>
       <Parameter xsi:type="Parameter">
         <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_3/BMS_BatteryCurrent, Timeout = 0</Text>
@@ -5715,10 +5722,10 @@
       </Parameter>
       <Value>BMS_BatteryCurrent</Value>
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_065f50f00f9346fbabe95321d4ba0e39" Name="Write" TestType="TCS">
-      <Path>/电压故障/电池电流</Path>
+      <Path>/电压故障/Other/电池电流</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_3/BMS_BatteryCurrent = 10</Text>
@@ -5732,10 +5739,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_d427268afc0248fd953b319e0da9a05f" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电池电流</Path>
+      <Path>/电压故障/Other/电池电流</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5746,10 +5753,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_366ed39519e84ee18a52d620d3e791de" Name="Write" TestType="TCS">
-      <Path>/电压故障/电池电流</Path>
+      <Path>/电压故障/Other/电池电流</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_3/BMS_BatteryCurrent = -10</Text>
@@ -5763,10 +5770,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_0de2a6bda5a24416911c0f8cb5b03c7e" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电池电流</Path>
+      <Path>/电压故障/Other/电池电流</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5777,10 +5784,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_e86794cad7784609ab6b5d7a21fa2e8e" Name="Write" TestType="TCS">
-      <Path>/电压故障/电池电流</Path>
+      <Path>/电压故障/Other/电池电流</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_3/BMS_DCBusVoltage = $BMS_BatteryCurrent</Text>
@@ -5794,10 +5801,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_99e0e2d8f84e4d15b40eec556f78c1bf" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电池电流</Path>
+      <Path>/电压故障/Other/电池电流</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5808,24 +5815,24 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_6a4f9614f0434f07b420759760906cab" Name="电压状态与量值矛盾" TestType="TCG">
-      <Path>/电压故障</Path>
+      <Path>/电压故障/Other</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_a142bd05a60a48a5bf2da888e0fd52f1" Name="BMS_UnderVoltageSts" TestType="TCG">
-      <Path>/电压故障/电压状态与量值矛盾</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_bfb888a9d9514e678efc41f43342b274" Name="Read" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
       <Action>Read</Action>
       <Parameter xsi:type="Parameter">
         <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_UnderVoltageSts, Timeout = 0</Text>
@@ -5841,10 +5848,10 @@
       </Parameter>
       <Value>BMS_UnderVoltageSts</Value>
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_d843c03a1e054843b84b31e25699a529" Name="Write" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_UnderVoltageSts = 1</Text>
@@ -5858,10 +5865,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_0a955d4343b442debeb60a7231db7d9d" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5872,10 +5879,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_24c9e0acc0894c1685135d64d9717f2e" Name="Write" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_UnderVoltageSts = 2</Text>
@@ -5889,10 +5896,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_916e075e9c6d4ab0b08f781d4149064a" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5903,10 +5910,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_08c6741abbb743abb353ce6ccdb0b941" Name="Write" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_UnderVoltageSts = $BMS_UnderVoltageSts</Text>
@@ -5920,10 +5927,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_a7165921d67541eb847779696585bb91" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_UnderVoltageSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5934,17 +5941,17 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_0c26775685d64a5fbb3c46cb54bff3c8" Name="BMS_OverVoltageSts" TestType="TCG">
-      <Path>/电压故障/电压状态与量值矛盾</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_3b216a4eb32d48628eb342a49f6a0cc6" Name="Read" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
       <Action>Read</Action>
       <Parameter xsi:type="Parameter">
         <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_OverVoltageSts, Timeout = 0</Text>
@@ -5960,10 +5967,10 @@
       </Parameter>
       <Value>BMS_OverVoltageSts</Value>
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_090aed5a0a93464b84d04a1bc2f8049b" Name="Write" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_OverVoltageSts = 1</Text>
@@ -5977,10 +5984,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_25a621e49dae48cdb9acfcdea05685c8" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -5991,10 +5998,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_1ef620a0366744f699bdc261552269b2" Name="Write" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_OverVoltageSts = 2</Text>
@@ -6008,10 +6015,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_5e11788658d447b5ae41f909f47efc7d" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6022,10 +6029,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_5397a1372cb14d60891fe64e1bc0b8ff" Name="Write" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_OverVoltageSts = $BMS_OverVoltageSts</Text>
@@ -6039,10 +6046,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_ff0831d5243244f8a9d288a2accf5569" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_OverVoltageSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6053,17 +6060,17 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_978a213596464c229280b3f804317fde" Name="BMS_CellOverVoltageSts" TestType="TCG">
-      <Path>/电压故障/电压状态与量值矛盾</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_2d6296adfa85449a9a261e11c2eea74d" Name="Read" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
       <Action>Read</Action>
       <Parameter xsi:type="Parameter">
         <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_CellOverVoltageSts, Timeout = 0</Text>
@@ -6079,10 +6086,10 @@
       </Parameter>
       <Value>BMS_CellOverVoltageSts</Value>
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_8e5fb889b55546e9bff189858c3baff0" Name="Write" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_CellOverVoltageSts = 1</Text>
@@ -6096,10 +6103,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_d44856c07a5a4a0fbfac2bcba09ae4c0" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6110,10 +6117,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_510eba23ed7447368161c1ec97e0a998" Name="Write" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_CellOverVoltageSts = 2</Text>
@@ -6127,10 +6134,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_51196f8603b94481bf9b69df1b8875cf" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6141,10 +6148,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_d854c801e33f4003ba2a7c60b8f3760f" Name="Write" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_CellOverVoltageSts = $BMS_CellOverVoltageSts</Text>
@@ -6158,10 +6165,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_4f43d6a34f934273b46eb587e9063ba3" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS_CellOverVoltageSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6172,17 +6179,17 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_83f950ec689b425a869aa308410a1a85" Name="BMS__CellUnderVoltageSts" TestType="TCG">
-      <Path>/电压故障/电压状态与量值矛盾</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_54854b3aaf144f19837b365ea202b9d8" Name="Read" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
       <Action>Read</Action>
       <Parameter xsi:type="Parameter">
         <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS__CellUnderVoltageSts, Timeout = 0</Text>
@@ -6198,10 +6205,10 @@
       </Parameter>
       <Value>BMS__CellUnderVoltageSts</Value>
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_7ac4a3dcd371470ba30c71d5e87efcf6" Name="Write" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS__CellUnderVoltageSts = 1</Text>
@@ -6215,10 +6222,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_fa8fac2d48b243978e1070e44ca624bc" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6229,10 +6236,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_1149fe3168e24b56a0f7dcbea808b1f4" Name="Write" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS__CellUnderVoltageSts = 2</Text>
@@ -6246,10 +6253,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_811ab931a10f490294e884e2ff3d7914" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6260,10 +6267,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_0321ab6e4ebc4650a97dff0e9280f1dd" Name="Write" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS__CellUnderVoltageSts = $BMS__CellUnderVoltageSts</Text>
@@ -6277,10 +6284,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_067aa820e26744e8b252f98690d95f4d" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
+      <Path>/电压故障/Other/电压状态与量值矛盾/BMS__CellUnderVoltageSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6291,24 +6298,24 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_c59b862b1a204718a35aa953a0d9008f" Name="电流过流状态矛盾" TestType="TCG">
-      <Path>/电压故障</Path>
+      <Path>/电压故障/Other</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_7769fe26a6e24c37880b28e70b7a564d" Name="BMS_CurrSampleErr" TestType="TCG">
-      <Path>/电压故障/电流过流状态矛盾</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_09e63680e4004400a4733736d495eaa6" Name="Read" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_CurrSampleErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_CurrSampleErr</Path>
       <Action>Read</Action>
       <Parameter xsi:type="Parameter">
         <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_CurrSampleErr, Timeout = 0</Text>
@@ -6324,10 +6331,10 @@
       </Parameter>
       <Value>BMS_CurrSampleErr</Value>
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_5380159994274219b880ad4ae6a89796" Name="Write" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_CurrSampleErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_CurrSampleErr</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_CurrSampleErr = 1</Text>
@@ -6341,10 +6348,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_507a6e06541043f7bd2e06d4dff411ae" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_CurrSampleErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_CurrSampleErr</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6355,10 +6362,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_29437edb98144553aef86100704857c8" Name="Write" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_CurrSampleErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_CurrSampleErr</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_CurrSampleErr = 2</Text>
@@ -6372,10 +6379,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_8ccd09f6675d4479aa3d9311b8c72e30" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_CurrSampleErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_CurrSampleErr</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6386,10 +6393,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_91d83f503fac49bca80ab695e2ab3c3e" Name="Write" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_CurrSampleErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_CurrSampleErr</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_CurrSampleErr = $BMS_CurrSampleErr</Text>
@@ -6403,10 +6410,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_89fa1df911a2428a8032765ed124bad6" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_CurrSampleErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_CurrSampleErr</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6417,17 +6424,17 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_f070c1d7f1ac47b284ee98927fe9980f" Name="BMS_Currsensor_CommuErr" TestType="TCG">
-      <Path>/电压故障/电流过流状态矛盾</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_9ade3f67b1a841d6bbd42ba42f23e06a" Name="Read" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
       <Action>Read</Action>
       <Parameter xsi:type="Parameter">
         <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_Currsensor_CommuErr, Timeout = 0</Text>
@@ -6443,10 +6450,10 @@
       </Parameter>
       <Value>BMS_Currsensor_CommuErr</Value>
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_4b5e9d2a0f7b49e9a6ce30be14254922" Name="Write" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_Currsensor_CommuErr = 1</Text>
@@ -6460,10 +6467,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_eab2ce0e9c6b4c0b89abac8af1a53d6c" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6474,10 +6481,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_63339db2b4bf474095d2a6c25dc53d69" Name="Write" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_Currsensor_CommuErr = 2</Text>
@@ -6491,10 +6498,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_f4a5290b5ebc48dc8687324dd0de50d6" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6505,10 +6512,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_5dbfe0eec1e346278c0a71d455e9cc52" Name="Write" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_Currsensor_CommuErr = $BMS_Currsensor_CommuErr</Text>
@@ -6522,10 +6529,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_5b5ad054bb3241ccaeabbdef32d03c6a" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_Currsensor_CommuErr</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6536,17 +6543,17 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_d852c0d8c87345f58976b57931a2029c" Name="BMS_OverCurrtSts" TestType="TCG">
-      <Path>/电压故障/电流过流状态矛盾</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_fa5e06441fd64b0cb6b4bffd0f0dcfb3" Name="Read" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverCurrtSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverCurrtSts</Path>
       <Action>Read</Action>
       <Parameter xsi:type="Parameter">
         <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_OverCurrtSts, Timeout = 0</Text>
@@ -6562,10 +6569,10 @@
       </Parameter>
       <Value>BMS_OverCurrtSts</Value>
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_5252090f630c423b976a326bda3c2ab9" Name="Write" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverCurrtSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverCurrtSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_OverCurrtSts = 1</Text>
@@ -6579,10 +6586,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_7e157f0fc9fa43488a8fa6ff8883df26" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverCurrtSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverCurrtSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6593,10 +6600,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_176729e1ea1f4dabbf6b16dc33684185" Name="Write" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverCurrtSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverCurrtSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_OverCurrtSts = 2</Text>
@@ -6610,10 +6617,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_78116ff79020473797658618137f7874" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverCurrtSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverCurrtSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6624,10 +6631,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_56360b52351145d9b9a77022f72a178c" Name="Write" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverCurrtSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverCurrtSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_OverCurrtSts = $BMS_OverCurrtSts</Text>
@@ -6641,10 +6648,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_9aef4643f6d14b58a6bd2e7fd93a87ff" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverCurrtSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverCurrtSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6655,17 +6662,17 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_8211efff2cc145e5b6073075e2c806f8" Name="BMS_OverChgCurrSts" TestType="TCG">
-      <Path>/电压故障/电流过流状态矛盾</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾</Path>
       <Action>Group</Action>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_0278373e107e4897bbe86092320a7f94" Name="Read" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
       <Action>Read</Action>
       <Parameter xsi:type="Parameter">
         <Text>Mapping = [0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_OverChgCurrSts, Timeout = 0</Text>
@@ -6681,10 +6688,10 @@
       </Parameter>
       <Value>BMS_OverChgCurrSts</Value>
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_600b2dda8879425eacc046286bd56d29" Name="Write" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_OverChgCurrSts = 1</Text>
@@ -6698,10 +6705,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_e4326fd2924549b1a6e0459a98bfac7b" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6712,10 +6719,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_4ade5011172a430eb7701657e796626b" Name="Write" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_OverChgCurrSts = 2</Text>
@@ -6729,10 +6736,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_b10b50197d62432db3313d361d6fc018" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6743,10 +6750,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_8380f443be8f441d85e22ddf1748c81f" Name="Write" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
       <Action>Write</Action>
       <Parameter xsi:type="Parameter">
         <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/FromVCU/CAN/VCU_Body/GW_BMS_7/BMS_OverChgCurrSts = $BMS_OverChgCurrSts</Text>
@@ -6760,10 +6767,10 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
     <StepItem ID="test_faf8464849a04da796ca66203177a2c6" Name="Wait" TestType="TCS">
-      <Path>/电压故障/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
+      <Path>/电压故障/Other/电流过流状态矛盾/BMS_OverChgCurrSts</Path>
       <Action>Wait</Action>
       <Parameter xsi:type="Parameter">
         <Text>2000 ms</Text>
@@ -6774,7 +6781,7 @@
       </Parameter>
       <Value />
       <Comment />
-      <IsCommented>false</IsCommented>
+      <IsCommented>true</IsCommented>
     </StepItem>
   </TestSteps>
 </TestCase>
