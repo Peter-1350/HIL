@@ -85,6 +85,23 @@
   <InitSteps />
   <StopSteps />
   <TestSteps>
+    <StepItem ID="test_8dcccca73db541ddb31459dff382b0f2" Name="StartRecorder" TestType="TCS">
+      <Path>/</Path>
+      <Action>StartRecorder</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>BaseName=FI-01, RecorderFile=FI-01-制动踏板.dr, StopFirstAndThenStart=True</Text>
+        <Metadata xsi:type="RecorderStartMetadata">
+          <StopFirstAndThenStart>true</StopFirstAndThenStart>
+          <Action>Start</Action>
+          <RecorderFile>FI-01-制动踏板.dr</RecorderFile>
+          <RecorderID>f11e4aff-4ca2-4034-a20c-7f2e6ad055e8</RecorderID>
+          <RecorderBaseName>FI-01</RecorderBaseName>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
     <StepItem ID="test_e76ce1d3971149c0a52b15a09340d034" Name="上ready灯+速度达到160" TestType="TCG">
       <Path>/</Path>
       <Action>Group</Action>
@@ -725,6 +742,21 @@
         <Metadata xsi:type="WaitMetadata">
           <Duration>5000</Duration>
           <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_0bbe5eb5072244898020c5941997648d" Name="StopRecorder" TestType="TCS">
+      <Path>/</Path>
+      <Action>StopRecorder</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>RecorderFile=FI-01-制动踏板.dr</Text>
+        <Metadata xsi:type="RecorderStopMetadata">
+          <Action>Stop</Action>
+          <RecorderFile>FI-01-制动踏板.dr</RecorderFile>
+          <RecorderID>f11e4aff-4ca2-4034-a20c-7f2e6ad055e8</RecorderID>
         </Metadata>
       </Parameter>
       <Value />

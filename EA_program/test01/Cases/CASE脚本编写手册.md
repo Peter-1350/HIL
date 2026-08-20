@@ -27,7 +27,7 @@
 
 ## 2. 映射（Mapping）
 
-所有会被 `Write` 或 `Read` 引用的模型信号，都应先在 `Mapping` 中定义，并且后续的 `<Mapping>` 文本必须与 `<MappingItem Name="…">` **逐字符一致**。
+所有会被 `Write` 或 `Read` 引用的模型信号，都应先在 `Mapping` 中定义，并且后续的 `<Mapping>` 文本必须与 `<MappingItem Name="…">` **逐字符一致**。仅被 `.dr` Recorder 录制的信号不需要为了录波而加入 `.case/Mapping`。
 
 ```xml
 <Mapping>
@@ -54,7 +54,7 @@
 
 ## 3. 变量与命名空间
 
-读取值、函数返回值或表达式中使用的变量，应声明在 `Variables`，引用时写作 `$变量名`。
+读取值、函数返回值或表达式中使用的变量，应声明在 `Variables`，引用时写作 `$变量名`。不要为录波数据临时创建变量；录波器会持续保存其配置中全部信号的值变化。
 
 ```xml
 <Variables>
@@ -147,6 +147,8 @@ Python 扩展 Action 要求命名空间。例如 `RandomUniform` 的现有案例
 现有案例使用 `ms`。`Text` 的数值、`Duration` 和 `Unit` 要保持一致。
 
 ### Read：读取、保存或判定
+
+> **提示：Recorder 与 Read 的职责不同。** 凡是为了记录写入值、待测信号或整个测试过程中的信号变化，应将信号加入配套 `.dr`，由 Recorder（录波文件）连续采样；**不应**为数据记录目的在 `.case` 中插入 `Read`。`Read` 只在测试逻辑需要立刻取得一个值时使用：将该值保存到变量供 `While` / `IfThenElse` / 后续 `Write` 使用，或对该次读取进行 `Expectation` 判定。
 
 **只读取并保存至变量：**
 
@@ -311,7 +313,27 @@ def RandomUniform(min_value=0.0, max_value=100.0):
 </StepItem>
 ```
 
-`RecorderID`、`.dr` 文件名和基础名必须取自已配置的录波器，不能随机伪造。Start 与对应 Stop 的 `RecorderID`、`RecorderFile` 必须相同。
+以当前 `FI-01 制动踏板.case` 为准，推荐在顶层测试步骤的开头启动、末尾停止 Recorder：
+
+```xml
+<StepItem ID="test_[id]" Name="StartRecorder" TestType="TCS">
+  <Path>/</Path><Action>StartRecorder</Action>
+  <Parameter xsi:type="Parameter">
+    <Text>BaseName=FI-01, RecorderFile=FI-01-制动踏板.dr, StopFirstAndThenStart=True</Text>
+    <Metadata xsi:type="RecorderStartMetadata">
+      <StopFirstAndThenStart>true</StopFirstAndThenStart><Action>Start</Action>
+      <RecorderFile>FI-01-制动踏板.dr</RecorderFile>
+      <RecorderID>f11e4aff-4ca2-4034-a20c-7f2e6ad055e8</RecorderID>
+      <RecorderBaseName>FI-01</RecorderBaseName>
+    </Metadata>
+  </Parameter>
+  <Value /><Comment /><IsCommented>false</IsCommented>
+</StepItem>
+```
+
+`RecorderFile` 和 `RecorderID` 必须取自同一已配置 `.dr`，且 Start 与对应 Stop 的这两个字段必须相同。`BaseName` / `RecorderBaseName` 为 StartRecorder 的运行配置，`Text` 与 Metadata 必须一致；它可以不同于 `.dr/FileConfig/BaseName`，FI-01 即为 `FI-01` 与 `FI-01-制动踏板` 的不同组合。不要自行伪造 `RecorderID`。
+
+`StartRecorder` / `StopRecorder` 报 `Unexpected UTF-8 BOM` 时，通常不是 Action 格式错误，而是 `.dr` JSON 带有 UTF-8 BOM。Recorder 服务要求 `.dr` 为 UTF-8 **无 BOM**；检查和修复方法见 `Recorder/RECORDER编写手册.md` 的“必须使用无 BOM 的 UTF-8”。
 
 ## 6. Python 扩展 Action 的合法添加方式
 
@@ -406,8 +428,9 @@ def Clamp(value, lower=0.0, upper=100.0):
 2. 从模型或已导出案例复制要用的全部 `MappingItem`，而不是手写接口路径。
 3. 补充变量和所需命名空间。
 4. 先插入顶层 `Group`，再按照层级和执行顺序追加子 `StepItem`。
-5. 每个 `Write` / `Read` 中将 `Text`、`Metadata` 和 `Value` 同步替换；每个控制结构的 `Path` 与父节点名称同步替换。
-6. 用 XML 解析器检查格式，再在目标工具中导入、保存和执行一次；工具能验证模型映射、录波器 ID 与其内部元数据。
+5. 需要全程录波的信号全部配置在配套 `.dr`；若由用例控制录波，在首个业务步骤前加入顶层 `StartRecorder`，在最终恢复等待后加入顶层 `StopRecorder`。
+6. 每个 `Write` / `Read` 中将 `Text`、`Metadata` 和 `Value` 同步替换；只在后续逻辑需要变量值或即时判定时添加 `Read`。
+7. 用 XML 解析器检查格式，再在目标工具中导入、保存和执行一次；工具能验证模型映射、录波器 ID 与其内部元数据。
 
 ## 8. 交付前检查清单
 
@@ -417,7 +440,8 @@ def Clamp(value, lower=0.0, upper=100.0):
 - 每个 `$变量` 都已在 `Variables` 中声明；函数所需命名空间已经声明。
 - `Path` 是父路径，且父节点存在；XML 中的步骤排序符合预期执行顺序。
 - `Read` 的保存/判定开关、`Variable`、步骤 `Value`、`Expectation` 彼此一致。
-- Start/Stop Recorder 指向同一真实录波器。
+- 不存在仅为“记录/观察”而添加的 `Read`；这些信号已加入对应 `.dr` 的 SignalList。
+- Start/Stop Recorder 的 `RecorderFile`、`RecorderID` 指向同一真实录波器，并且 `Text` 与 Metadata 一致。
 - 所有 `<Text>` 是对应 Metadata 的可读镜像，避免 UI 显示和实际执行元数据不一致。
 - 每个 Python 扩展模块均可由目标执行器导入，函数名、形参名、模块名和 `FuncMetadata` 键名完全一致。
 

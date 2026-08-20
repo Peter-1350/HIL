@@ -1,0 +1,12 @@
+﻿接口,物理含义,已记录,取值,跨度,变化次数,被动筛选分级
+env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromDriverManeuver.SteeringWheelAngle_rad,方向盘转角（Modelbase）,是,{0},0,0,S3：当前工况恒零
+env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromCAN.FrontTrqCmd1,前轴物理扭矩指令,是,{0},0,0,S3：当前工况恒零
+env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromCAN.RearTrqCmd,后轴物理扭矩指令,是,{0},0,0,S3：当前工况恒零
+env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.EPB_Force_RL,左后 EPB 力,是,{0},0,0,S3：当前工况恒零
+env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.EPB_Force_RR,右后 EPB 力,是,{0},0,0,S3：当前工况恒零
+env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.Force_SusWext_1L,左前悬架外力,是,{0},0,0,S3：当前工况恒零
+env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.Force_SusWext_1R,右前悬架外力,是,{0},0,0,S3：当前工况恒零
+env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.Force_SusWext_2L,左后悬架外力,是,{0},0,0,S3：当前工况恒零
+env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.Force_SusWext_2R,右后悬架外力,是,{0},0,0,S3：当前工况恒零
+env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromEPS_model.EPSActuator_AN_IN_PowerSteeringTorque,EPS 助力转向扭矩,是,{0},0,0,S3：当前工况恒零
+env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromDriverManeuver.DecelZoneSet,减速区状态,是,{0},0,0,S3：当前工况恒零

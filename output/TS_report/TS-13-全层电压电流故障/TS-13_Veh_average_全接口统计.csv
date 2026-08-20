@@ -1,0 +1,1265 @@
+﻿层,录波,方向,接口,最小值,最大值,变化次数,变化时刻_s,取值摘要,电压电流相关
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output18.U_Ch18_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output18.U_Ch18_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output19.U_Ch19_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output19.U_Ch19_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output19.U_Ch19_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output19.U_Ch19_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output2.U_Ch2_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output2.U_Ch2_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output2.U_Ch2_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output2.U_Ch2_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output20.U_Ch20_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output20.U_Ch20_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output20.U_Ch20_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output20.U_Ch20_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output21.U_Ch21_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output21.U_Ch21_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output21.U_Ch21_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output21.U_Ch21_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output22.U_Ch22_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output22.U_Ch22_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output22.U_Ch22_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output22.U_Ch22_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output23.U_Ch23_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output23.U_Ch23_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output23.U_Ch23_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output23.U_Ch23_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output24.U_Ch24_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output24.U_Ch24_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output24.U_Ch24_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output24.U_Ch24_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output25.U_Ch25_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output25.U_Ch25_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output25.U_Ch25_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output25.U_Ch25_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output26.U_Ch26_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output26.U_Ch26_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output26.U_Ch26_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output26.U_Ch26_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output27.U_Ch27_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output27.U_Ch27_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output27.U_Ch27_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output27.U_Ch27_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output28.U_Ch28_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output28.U_Ch28_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output28.U_Ch28_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output28.U_Ch28_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output29.U_Ch29_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output29.U_Ch29_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output29.U_Ch29_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output29.U_Ch29_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output3.U_Ch3_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output3.U_Ch3_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output3.U_Ch3_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output3.U_Ch3_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output30.U_Ch30_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output30.U_Ch30_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output30.U_Ch30_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output30.U_Ch30_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output31.U_Ch31_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output31.U_Ch31_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output31.U_Ch31_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output31.U_Ch31_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output32.U_Ch32_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output32.U_Ch32_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output32.U_Ch32_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output32.U_Ch32_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output33.U_Ch33_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output33.U_Ch33_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output33.U_Ch33_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output33.U_Ch33_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output34.U_Ch34_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output34.U_Ch34_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output34.U_Ch34_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output34.U_Ch34_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output35.U_Ch35_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output35.U_Ch35_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output35.U_Ch35_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output35.U_Ch35_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output36.U_Ch36_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output36.U_Ch36_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output36.U_Ch36_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output36.U_Ch36_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output4.U_Ch4_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output4.U_Ch4_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output4.U_Ch4_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output4.U_Ch4_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output5.U_Ch5_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output5.U_Ch5_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output5.U_Ch5_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output5.U_Ch5_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output6.U_Ch6_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output6.U_Ch6_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output6.U_Ch6_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output6.U_Ch6_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output7.U_Ch7_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output7.U_Ch7_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output7.U_Ch7_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output7.U_Ch7_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output8.U_Ch8_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output8.U_Ch8_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output8.U_Ch8_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output8.U_Ch8_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output9.U_Ch9_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output9.U_Ch9_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output9.U_Ch9_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output9.U_Ch9_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay10.BrakeClose1_Out,0,2,2,"26.311, 29.911","{0, 2}",否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay11.BrakeClose2_Out,0,2,2,"26.311, 29.911","{0, 2}",否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay12.BrakeOpen2_Out,0,2,2,"26.311, 29.911","{0, 2}",否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay25.Model_Disabled_Out,1,2,1,26.511,"{1, 2}",否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay4.GearR_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay5.GearN_Out,2,2,0,,{2},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay6.GearD_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay7.GearP_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay8.DriveMode_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Relay.Relay9.BrakeOpen1_Out,0,2,2,"26.311, 29.911","{0, 2}",否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output1.BRK_Main_Out,1,4,2,"26.311, 29.911","{1, 4}",是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output1.BRK_Main_Enable_Out,1,1,0,,{1},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output1 .PUMP_Out,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output1 .PUMP_Enable_Out,1,1,0,,{1},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output4.Btemp_Out,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output4.Btemp_Enable_Out,1,1,0,,{1},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output5.BRK_Auxi_Out,0.5,2,2,"26.311, 29.911","{0.5, 2}",是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output5.BRK_Auxi_Enable_Out,1,1,0,,{1},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output7.ACC_Main_Out_Out,1,1,0,,{1},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output7.ACC_Main_Enable_Out,1,1,0,,{1},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output8.ACC_Auxi_Out_Out,0.5,0.5,0,,{0.5},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Voltage Output.Voltage Output8.ACC_Auxi_Enable_Out,1,1,0,,{1},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_AverageTemp_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_ChargingTime_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_ChgConnectSts_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_Faultcode_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_OutputCurr_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_OutputVoltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_PDUSts_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.DC1_WorkingMode_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1.NTC_AverageTemp_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_CANError_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_Derating_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_InputCurrent_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_InputVoltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OperatingMode_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OuputOpencircuit_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OutCurrent_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OutVoltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OverIV_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OverOC_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OverOV_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_OverTemp_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_RealityTemp_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_UnderIV_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_UnderOV_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_faultlevel_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1.DCDC_stsError_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC1_1_MsgEnable.DCDC1_1_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftDCDCDataToBus.DCDC_1_MsgEnable.DCDC_1_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_CANMsgFault_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_ChargeCurrent_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_ChargeVoltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_FanFault_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_HighCurrOutputFault_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_HighVoltOutputOverVolt_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_HighVoltOutputShortCircuit_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_HighVoltOutputUnderVolt_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_InputOverVolt_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_InputUnderVolt_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_LowVoltOTFault_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_NoBattery_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_OverTemp_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1.OBC_State_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_ACVolageSts_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_BattConnectSts_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_CP_Sts_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_CommOverTime_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_HWSts_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_HWVersion_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_SoftVersion_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_TempSts_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2.OBC_Temp_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_3.OBC_ACInputVoltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_3.OBC_BatteryVoltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_3.OBC_CurrentLimit_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_3.OBC_ErrorFlag_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_3.OBC_PFCVoltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_ACInputCurrent_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_BMSWakeSts_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_CCSts_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_CPDuty_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_ChrgPiletMaxCurr_ToBus,60,60,0,,{60},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_ChrgPortTemp1_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_ChrgPortTemp2_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_Faultlevel_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.OBC_S2Sts_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4.Unused_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_1_MsgEnable.OBC_1_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_2_MsgEnable.OBC_2_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_3_MsgEnable.OBC_3_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.bodyCAN_out.SoftOBCDataToBus.OBC_4_MsgEnable.OBC_4_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Capability.BMS_Capability_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Capability.BMS_max_charge_current_ToBus,11.1088,11.109,131,"0.311, 0.511, 0.711, 0.911, 1.111, 1.311, 1.511, 1.711, 1.911, 2.111 …",min=11.1088; max=11.109; distinct=167,是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_Currsensor_CommuErr,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_DiffTempSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_IsolSuperSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_OverChgCurrSts,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_OverCurrtSts,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_OverVoltageSts,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_UnderSOCSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_UnderVoltageSts,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS__CellUnderVoltageSts,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bBatTotalVolSampleBackErr,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bBattPack_MatchErr,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bCanBusoff,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bCarStorePowerOverCurr,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bDischg_loop_interlock,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bHeatrelayAdhesionSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bHighVolloopOffErr,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bMainRelayAdhesionSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bMainSwitchBreakErr,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bOutlettempSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bOverSOCSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bPowerSupplyHighErr,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bPowerSupplyLowErr,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bPrerelayAdhesionSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bSOC_JumpErr,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bSingleHeatingTimeOutFault,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bTemp_line_breakErr,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bTmalRunFlt,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bVCU_CAN_FAILED,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_bVolt_linebreakErr,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_9.BMS_12vOutputDisable,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_9.BMS_ChgTime,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_9.BMS_OutputCurrReq,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_9.BMS_OutputVoltReq,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_9.BMS_WorkingMode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_9.BMS_tOutputModeReq,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_EPS_1.EPSFailSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_EPS_1.RecoverableFault,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_MCU_1.MCU_MotorSpeed,0,44,10,"1.600, 4.400, 7.800, 11.600, 16.600, 23.000, 26.600, 26.800, 27.000, 27.200",min=0; max=44; distinct=11,否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_MCU_1.MCU_ControllerTemp,20,20,0,,{20},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_MCU_1.MCU_ControllerTorque,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_MCU_1.MCU_MotorTemp,20,20,0,,{20},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_MCU_1.MCU_SpeedVechile,0,0.5,3,"26.600, 26.800, 27.000","{0, 0.1, 0.3, 0.5}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_SAM_1.CRCCheck,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_SAM_1.MessageCounter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_SAM_1.SASCalibrated,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_SAM_1.SASInit,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_SAM_1.SteeringAngle,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_SAM_1.SteeringAngleSpeed,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_SAM_1.SteeringAngleSpeedValidData,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_SAM_1.SteeringAngleValidData,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_GasPedalPosition,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_GearboxPositionDisplay,12,12,0,,{12},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_InstPowerConsum,29.988,29.988,0,,{29.988},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_ResidualOdometer,31,31,0,,{31},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_VehicleSpeedVSOSig,0,0.5625,5,"1.600, 23.000, 26.600, 26.800, 27.000","{0, 0.125, 0.3125, 0.4375, 0.5, 0.5625}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bBattChgAndDischgFaults,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bBattFaultWarningLightSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bBrakeSt,0,1,2,"26.600, 30.800","{0, 1}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bGrLevErr,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bLVBattwarning,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bMaintainLightSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bMotorFaultWarningLightSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bMotorOvertempWarningLig,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bReadyLightSts,0,1,2,"27.400, 66.800","{0, 1}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bSocWarningLightSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bSysFaultsWarningLightSts,0,1,3,"66.600, 66.800, 95.200","{0, 1}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bSysWarningLightSts,0,1,1,95.200,"{0, 1}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_1.VCU_bVacuumPumpSysFailure,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_Control,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_CreepFuncSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_DriveMode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_DrivemodeRembSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_Faultcode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_PPDSoundClose,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_SpeedLimit,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_VechileSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_bDCDCSt,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_bHandBrakeSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_bHvEmgyReqSt,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_bStSmartChg,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_3.VCU_stTBOX_Limit,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_4.VCU_AvailResidPower,512,512,0,,{512},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_4.VCU_CLM_stPtc,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_4.VCU_EAC_drive_request,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_4.VCU_EAC_power_lim,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_4.VCU_InstantPower,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_4.VCU_InterlockSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_4.VCU_MotorMaxPower,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.ICM_1.DriverSeatBeltWarningSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.ICM_1.TotalOdometer_km,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_BCM.ActiveLoadMaster,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_BCM.ControllerSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_BCM.Counter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_BCM.CurrentFailSts,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_BCM.NetworkCommand,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_BCM.SYNCBits,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_DCDC1.ActiveLoadMaster,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_DCDC1.ControllerSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_DCDC1.Counter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_DCDC1.CurrentFailSts,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_DCDC1.NetworkCommand,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_DCDC1.SYNCBits,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_DCDC_OBC.AL,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_DCDC_OBC.ControllerSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_DCDC_OBC.Counter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_DCDC_OBC.CurrentFailSts,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_DCDC_OBC.NC,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_DCDC_OBC.SYNCBits,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_RRM.ActiveLoadMaster,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_RRM.ControllerSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_RRM.Counter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_RRM.CurrentFailSts,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_RRM.NetworkCommand,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NMm_RRM.SYNCBits,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_ICM.ActiveLoads,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_ICM.ControllerSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_ICM.Counter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_ICM.CurrentFailSts,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_ICM.NetworkCommand,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_ICM.SyncBits,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.ActiveLoadMaster,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.ControllerSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Counter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.CounterError,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.CurrentFailSts,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.NetworkCommand,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node0,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node1,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node10,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node11,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node12,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node13,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node14,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node15,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node16,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node17,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node18,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node19,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node2,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node20,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node21,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node22,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node23,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node24,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node25,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node26,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node27,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node28,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node29,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node3,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node30,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node31,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node32,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node33,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node34,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node35,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node36,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node37,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node38,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node39,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node4,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node5,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node6,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node7,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node8,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Node9,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.Reserved,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.NWM_TBOX.SYNCBits,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.PPD_1.PPD_SwitchSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.PPD_1.PPD_TypesOfNoise,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.PPD_1.Reserved,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.RADAR_1.RADAR_AudibleBeepRate,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.RADAR_1.RADAR_LHRRadarSensorDistance,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.RADAR_1.RADAR_RHMRRadarSensorDistance,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.RADAR_1.RADAR_RadarDetectSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.RADAR_1.RADAR_RadarWorkSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.RRM_1.RRM_CreepFuncSet,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.RRM_1.RRM_DrivemodeRembSet,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.RRM_1.RRM_PPDFuncSet,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.RRM_1.RRM_PPDTypesOfNoise,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.AliveCounter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.Checksum,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.DVD_SET_HORNcmd,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.Remo_FastWarming,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.Remote_AC_Req,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.Remote_BattConstantStsReq,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.Remote_CirculationMode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.Remote_Fastcooling,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.Remote_KeepWarmReq,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.Remote_Limit_Start,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.Remote_SmaChrgReq,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.RemotestartReq,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.Rmote_Control_Lock,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.Rmote_LowBeamCon_Req,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.TBOX_4GSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.TBOX_Diag_sts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.TBOX_GPSSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_1.TBOX_PowerSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_2.Elevation,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_2.Elevation_Valid,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.Driver.BrakeMode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.Driver.BrakePedal_perc,0,100,2,"26.240, 29.840","{0, 100}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.Driver.Key,0,1,1,26.440,"{0, 1}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.Driver.Gear_Button,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.Driver.DriveMode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.Driver.AccPedal_perc,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_BMS_Ctrl.VCU_charge_relay_control,0,7,2,"26.640, 95.040","{0, 7}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_BMS_Ctrl.VCU_Discharge_relay_control,0,4,5,"26.640, 26.840, 27.240, 66.640, 95.040","{0, 1, 2, 4}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_BMS_Ctrl.VCU_BMS_Ctrl_Checksum,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_BMS_Ctrl.VCU_BMS_Ctrl_Counter,0,15,668,"0.440, 0.640, 0.840, 1.040, 1.240, 1.440, 1.640, 1.840, 2.040, 2.240 …",min=0; max=15; distinct=16,否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_BMS_Ctrl.VCU_BMS_target_state,2,7,4,"26.640, 27.240, 66.640, 95.040","{2, 3, 4, 7}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_BMS_Ctrl.VCU_ChargeFiller_Temp,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_BMS_Ctrl.VCU_CrashStatus,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_Vehicle_status,2,7,6,"26.640, 26.840, 27.240, 66.640, 66.840, 95.040","{2, 3, 4, 7}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_powersystem_Error,0,2,1,95.040,"{0, 2}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_OBCVCC_state,0,1,1,26.640,"{0, 1}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_Geer_Positon,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_BMSVCC_state,0,1,1,26.640,"{0, 1}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_AcceleratorPedal_position,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_BrakePedal_position,0,100,2,"26.440, 30.840","{0, 100}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_Brakepump_Rely_state,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_CC_and_PP_state,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_CP_Stage,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_Drive_mode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_Geaeral_CAN1_Counter,0,15,668,"0.440, 0.640, 0.840, 1.040, 1.240, 1.440, 1.640, 1.840, 2.040, 2.240 …",min=0; max=15; distinct=16,否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_HVBox_state,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_Key_Position,0,2,1,26.640,"{0, 2}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_MCVCC_state,0,1,1,26.640,"{0, 1}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_Geaeral_CAN1.VCU_vacuum_degree,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_MC_TrqCtrl.VCU_Target_output_MaxTorque,10,10,0,,{10},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_MC_TrqCtrl.VCU_MC_Contron_mode,1,1,0,,{1},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_MC_TrqCtrl.VCU_MC_TrqCtrl_Checksum,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_MC_TrqCtrl.VCU_MC_TrqCtrl_Counter,0,15,668,"0.440, 0.640, 0.840, 1.040, 1.240, 1.440, 1.640, 1.840, 2.040, 2.240 …",min=0; max=15; distinct=16,否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_MC_TrqCtrl.VCU_MC_enable,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_MC_TrqCtrl.VCU_MC_ratateDirection,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_MC_TrqCtrl.VCU_MC_target_state,2,7,4,"26.640, 27.240, 66.640, 95.040","{2, 3, 4, 7}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_MC_TrqCtrl.VCU_Target_output_Torque,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_DCDC_Ctrl.VCU_DCDC_12Vcharge_Enable,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_DCDC_Ctrl.VCU_DCDC_Contron_mode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_DCDC_Ctrl.VCU_DCDC_Ctrl_Counter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_DCDC_Ctrl.VCU_DCDC_max_out_curr_Limit,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_DCDC_Ctrl.VCU_DCDC_max_output_volt_Limit,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_DCDC_Ctrl.VCU_DCDC_min_out_volt_Limit,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_DCDC_Ctrl.VCU_DCDC_output_current_request,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_DCDC_Ctrl.VCU_DCDC_output_voltage_request,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_DCDC_Ctrl.VCU_DCDC_target_state,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_MC_SpdCtrl.VCU_MC_SpdCtrl_Checksum,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_MC_SpdCtrl.VCU_MC_SpdCtrl_Counter,0,15,668,"0.440, 0.640, 0.840, 1.040, 1.240, 1.440, 1.640, 1.840, 2.040, 2.240 …",min=0; max=15; distinct=16,否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_MC_SpdCtrl.VCU_MC_target_Maxspeed,7500,7500,0,,{7500},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_MC_SpdCtrl.VCU_MC_target_speed,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_OBC_Ctrl.VCU_Charge_Enable,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_OBC_Ctrl.VCU_Max_ChargeCable,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_OBC_Ctrl.VCU_Max_ChgPile_out_current,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_OBC_Ctrl.VCU_OBC_Ctrl_Counter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VCU_OBC_Ctrl.VCU_OBC_target_state,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VersionRep.Hardware_major_version_number,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VersionRep.Hardware_minor_version_number,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VersionRep.Software_major_version_number,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Power.VersionRep.Software_minor_version_number,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_2.VCU_TqReqCmd,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_2.VCU_bMCUPowerOff,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_2.VCU_bMCUActDischgCmd,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_2.VCU_DCDCTarVolt,0,13.5,2,"30.040, 66.840","{0, 13.5}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_2.VCU_DCDCstCtrlReq,0,1,2,"30.040, 66.840","{0, 1}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_2.VCU_ModeReq,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_2.VCU_RemoteHVReady,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_2.VCU_bAntiSkid,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_2.VCU_bBattConnectSt,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_2.VCU_bChgAllow,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_2.VCU_bMCUEnable,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_VCU_2.VCU_stPUPDSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.ABM_1.AirBagFailSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.ABM_1.CheckSum,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.ABM_1.CrashOutputSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.ABM_1.DrvSeatBeltRSt,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.ABM_1.MessageCounter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.ABM_1.PsngrSeatBeltWarning,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.AlarmModeReserved,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.BonnetSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.DRLSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.DriverDoorLockSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.DriverDoorSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.FollowMeTime,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.FrontFogLightSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.HazardLightSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.HighBeamSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.KeyPrtBuzzCmd,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.KeySts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.LHRdoorSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.LHTurnlightSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.LowBeamSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.ParkLightOnWarning,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.PosLightOnWarning,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.PosLightSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.PosSwitchSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.PsngrDoorSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.RHRDoorSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.RHTurnlightSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.RearFogLightSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.TrumpetSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.TrunkDoorLockSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_1.Trunk_BackDoor_Sts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_2.AlarmMode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.BCM_2.Arming_Failed,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.CLM_EACReq,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.CLM_EAC_CompressorSpdReq,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.Evaporatortemperature,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.FaultCode2,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.FaultCode3,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.FaultCode4,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.FaultCode5,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.FaultCode6,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.FaultCode7,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.FaultCode8,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.HVAC_max_perm_ACCM_power,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.PTCState,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_1.PTC_Temp,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_2.BlowSpeedLevelDisplaySts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_2.CirculationModeDisplaySts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_2.ControlMode_Sts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_2.ModeAdjustDisplaySts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_2.TempCirculationMode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_2.TempknobRollingCounter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.CLM_2.WorkingSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_CompressorPower,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_CompressorSpd,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_HV_InputCurr,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_HV_InputVolt,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_IGBT_Temp,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_InternalVoltFault,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_LostCommunicationWithECC,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_Motor_PhaseCurr,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_OverBusCurrFault,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_OverPhaseECurrentFault,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_OverTempFault,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_OverTempeDropFrequeney,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_OverVoltFault,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_UnderVoltFault,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.EAC_1.EAC_WorkingMode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_1.ABSActive,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_1.ABSFailSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_1.Checksum,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_1.EBDActive,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_1.EBDFailSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_1.MessageCounter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_1.VehicleSpeedVSOSig,0,0.5625,4,"1.640, 22.840, 26.640, 26.840","{0, 0.125, 0.4375, 0.5, 0.5625}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_1.VehicleSpeedVSOSigValidData,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_10.TPMS_DangerousPressureWarningT,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_10.TPMS_MalfunctionLamp,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_10.TPMS_PressureWarningLamp,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_10.TPMS_PressureWarningLampReset,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_10.TPMS_PressureWarningText,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_2.LHFWheelSpeed,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_2.LHFWheelSpeedValidData,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_2.LHRWheelSpeed,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_2.LHRWheelSpeedValidData,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_2.RHFWheelSpeed,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_2.RHFWheelSpeedValidData,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_2.RHRWheelSpeed,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_2.RHRWheelSpeedValidData,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_G.ABSFailSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_G.Checksum,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_G.EBDFailSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_G.MessageCounter,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_G.VehicleSpeedVSOSig,0,0.5625,4,"1.640, 22.840, 26.640, 26.840","{0, 0.125, 0.4375, 0.5, 0.5625}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_ABS_G.VehicleSpeedVSOSigValidData,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_1.BMS_BattDisconnectWLS,0,1,2,"27.440, 66.840","{0, 1}",否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_1.BMS_ChgConnectLightSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_1.BMS_MaxChgCurr,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_1.BMS_MaxDischgCurr,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_1.BMS_SOC,98,98,0,,{98},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_1.BMS_bBattMaintainLightReq,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_3.BMS_AverageBattTemp,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_3.BMS_BattVolt,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_3.BMS_BatteryCurrent,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_3.BMS_DCBusVoltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_BattConstantSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_ChgFault_Grade,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_DcChgRelaySts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_DisChgfault_Grade,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_PTCSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_Powerdown,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_PrechargeContSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_SmaChrgReq,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_SmaChrgSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_Sts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_TotalFautlCount_N1,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_VhlChgControlMode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS__BattContFail,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS__InterlockSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS__PosBattContSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS__PrechargeSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_bKeepWarmSet,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_vhlDTBOXode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_6.BMS_workingMode,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_CellDiffSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_CellOverTempSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_CellOverVoltageSts,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_CellUnderTempSts,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.GW_BMS_7.BMS_CurrSampleErr,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Capability.BMS_max_charge_voltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Capability.BMS_max_discharge_current_ToBus,1373.1,1373.1,0,,min=1373.1; max=1373.1; distinct=669,是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Capability.BMS_max_discharge_voltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVolt.BMS_CellVoltMax_Num_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVolt.BMS_CellVoltMax_ToBus,4.5,4.5,0,,{4.5},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVolt.BMS_CellVoltMin_Num_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVolt.BMS_CellVoltMin_ToBus,2.7,2.7,0,,{2.7},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVolt.BMS_CellVolt_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVolt.BMS_Cell_aveVolt_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg1.BMS_CellVoltMsg1_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg1.BMS_cell_Volt_1_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg1.BMS_cell_Volt_2_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg1.BMS_cell_Volt_3_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg1.BMS_cell_Volt_4_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg10.BMS_CellVoltMsg10_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg10.BMS_cell_Volt_37_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg10.BMS_cell_Volt_38_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg10.BMS_cell_Volt_39_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg10.BMS_cell_Volt_40_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg11.BMS_CellVoltMsg11_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg11.BMS_cell_Volt_41_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg11.BMS_cell_Volt_42_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg2.BMS_CellVoltMsg2_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg2.BMS_cell_Volt_5_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg2.BMS_cell_Volt_6_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg2.BMS_cell_Volt_7_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg2.BMS_cell_Volt_8_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg3.BMS_CellVoltMsg3_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg3.BMS_cell_Volt_10_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg3.BMS_cell_Volt_11_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg3.BMS_cell_Volt_12_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg3.BMS_cell_Volt_9_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg4.BMS_CellVoltMsg4_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg4.BMS_cell_Volt_13_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg4.BMS_cell_Volt_14_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg4.BMS_cell_Volt_15_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg4.BMS_cell_Volt_16_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg5.BMS_CellVoltMsg5_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg5.BMS_cell_Volt_17_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg5.BMS_cell_Volt_18_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg5.BMS_cell_Volt_19_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg5.BMS_cell_Volt_20_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg6.BMS_CellVoltMsg6_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg6.BMS_cell_Volt_21_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg6.BMS_cell_Volt_22_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg6.BMS_cell_Volt_23_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg6.BMS_cell_Volt_24_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg7.BMS_CellVoltMsg7_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg7.BMS_cell_Volt_25_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg7.BMS_cell_Volt_26_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg7.BMS_cell_Volt_27_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg7.BMS_cell_Volt_28_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg8.BMS_CellVoltMsg8_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg8.BMS_cell_Volt_29_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg8.BMS_cell_Volt_30_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg8.BMS_cell_Volt_31_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg8.BMS_cell_Volt_32_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg9.BMS_CellVoltMsg9_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg9.BMS_cell_Volt_33_ToBus,3,3,0,,{3},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg9.BMS_cell_Volt_34_ToBus,3,3,0,,{3},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg9.BMS_cell_Volt_35_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg9.BMS_cell_Volt_36_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_General.BMS_Discharge_Relay_state_ToBus,0,4,4,"26.751, 27.151, 27.351, 66.551","{0, 2, 3, 4}",否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_General.BMS_General_CheckSUM_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_General.BMS_General_RollingCounter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_General.BMS_HVIL_state_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_General.BMS_Insolation_Sta_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_General.BMS_InsulationRes_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_General.BMS_Vehicle_crash_signal_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_General.BMS_chgFaultLevel_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_General.BMS_chgFault_alarm_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_General.BMS_mode_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_HVBusVolt_Curr.BMS_HVBusCurr_ToBus,3.00911e-106,0.0120148,152,"0.551, 0.751, 0.951, 1.151, 1.351, 1.551, 1.751, 1.951, 2.151, 2.351 …",min=3.00911e-106; max=0.0120148; distinct=669,是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_HVBusVolt_Curr.BMS_HVBusVolt_ToBus,397.819,397.819,3,"26.351, 26.551, 26.751",min=397.819; max=397.819; distinct=197,是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_HVBusVolt_Curr.BMS_SOC_ToBus,97.9962,97.9962,0,,min=97.9962; max=97.9962; distinct=161,是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_HVBusVolt_Curr.BMS_SOH_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_OBCCtrl.BMS_OBCCtrl_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_OBCCtrl.BMS_charge_enable_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_OBCCtrl.BMS_charge_remaintime_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_OBCCtrl.BMS_charger_arrow_chargcurrent_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_OBCCtrl.BMS_charger_arrow_chargvoltag_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_OBCCtrl.BMS_charger_requier_chargcurrent_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_OBCCtrl.BMS_charger_requier_chargvoltag_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Pack_status.BMS_Pack_status_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Pack_status.BMS_charge_or_discharge_status_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Pack_status.BMS_cold_or_heat_status_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Pack_status.BMS_status_blacce_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Pack_status.BMS_status_chargerelay_ToBus,0,4,4,"26.751, 27.151, 27.351, 66.551","{0, 2, 3, 4}",否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Pack_status.Bms_num_PLUG_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_PwrLimit_Chg.BMS_Max_Instantaneous_Peak_charge_power_ToBus,4.41929,4.41938,132,"0.551, 0.751, 0.951, 1.151, 1.351, 1.551, 1.751, 1.951, 2.151, 2.351 …",min=4.41929; max=4.41938; distinct=196,否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_PwrLimit_Chg.BMS_Max_continuous_charge_power_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_PwrLimit_Chg.BMS_PwrLimit_Chg_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_PwrLimit_DisChg.BMS_10sMaxDischgPwr_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_PwrLimit_DisChg.BMS_30sMaxDischgPwr_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_PwrLimit_DisChg.BMS_MaxContDischgPwr_ToBus,546.244,546.244,3,"26.351, 26.551, 26.751",min=546.244; max=546.244; distinct=669,否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_PwrLimit_DisChg.BMS_PwrLimit_DisChg_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Temp.BMS_BattTempAvg_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Temp.BMS_CellTempMax_Num_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Temp.BMS_CellTempMax_ToBus,160,160,0,,{160},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Temp.BMS_CellTempMin_Num_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Temp.BMS_CellTempMin_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Temp.BMS_Cell_total_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Temp.BMS_Temp_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Temp.BMS_Temp_sensor_total_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg1.BMS_Sensor_temp_1_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg1.BMS_Sensor_temp_2_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg1.BMS_Sensor_temp_3_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg1.BMS_Sensor_temp_4_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg1.BMS_Sensor_temp_5_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg1.BMS_Sensor_temp_6_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg1.BMS_Sensor_temp_7_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg1.BMS_TempSensorMsg1_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg2.BMS_Sensor_temp_10_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg2.BMS_Sensor_temp_11_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg2.BMS_Sensor_temp_12_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg2.BMS_Sensor_temp_13_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg2.BMS_Sensor_temp_14_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg2.BMS_Sensor_temp_8_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg2.BMS_Sensor_temp_9_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg2.BMS_TempSensorMsg2_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_Battery_NOT_matching_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_SOC_Break_1_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_SOC_too_High_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_HVIL_fault_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_HingTemp_2_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_HingTemp_3_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_HingTemp_4_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_InsulationRes_TooLOW_2_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_InsulationRes_TooLOW_4_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_LowTemp_2_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_LowTemp_3_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_OBC_communication_flt_3_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_PackOverVoltage_3_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_PackOverVoltage_4_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_PackUnderVoltage_2_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_PackUnderVoltage_3_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_PackUnderVoltage_4_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_PackUnderVoltage_chg_4_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_Packconsistency_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_SOClow_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_VCU_communication_flt_1_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_Volt_collect_interrupt_2_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_Volt_collect_interrupt_4_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_Voltage_difference_2_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_cellOverVoltage_3_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_cellOverVoltage_4_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_cellUnderVoltage_2_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_cellUnderVoltage_3_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_cellUnderVoltage_4_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_cellUnderVoltage_chg_4_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_chg_Overcurrent_3_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_chg_Overcurrent_4_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_crash_level_4_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_dischg_Overcurrent_2_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_dischg_Overcurrent_3_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_heating_fault_4_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_heating_film_HingTemp_4_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_heating_rate_Too_high_4_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_heating_rate_Too_high_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_neg_rly_conglutination_3_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_neg_rly_not_attracting_3_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_system_fault_3_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_tempDiffeerence_2_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_temp_collect_interrupt_2_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_temp_collect_interrupt_4_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_time_of_chg_too_long_4_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg.BMS_War_time_of_heat_too_long_4_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_battery_system_code_1.BMS_battery_type_code_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_battery_system_code_1.BMS_rated_energy_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_battery_system_code_1.BMS_supplier_code_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_battery_system_code_2.BMS_battery_code_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_battery_system_code_2.BMS_battery_system_code_length_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_battery_system_code_2.BMS_production_day_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_battery_system_code_2.BMS_production_month_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_battery_system_code_2.BMS_production_year_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_battery_system_code_2.BMS_rated_voltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Capability_MsgEnable.BMS_Capability_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg10_MsgEnable.BMS_CellVoltMsg10_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg11_MsgEnable.BMS_CellVoltMsg11_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg1_MsgEnable.BMS_CellVoltMsg1_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg2_MsgEnable.BMS_CellVoltMsg2_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg3_MsgEnable.BMS_CellVoltMsg3_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg4_MsgEnable.BMS_CellVoltMsg4_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg5_MsgEnable.BMS_CellVoltMsg5_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg6_MsgEnable.BMS_CellVoltMsg6_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg7_MsgEnable.BMS_CellVoltMsg7_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg8_MsgEnable.BMS_CellVoltMsg8_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVoltMsg9_MsgEnable.BMS_CellVoltMsg9_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_CellVolt_MsgEnable.BMS_CellVolt_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_General_MsgEnable.BMS_General_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_HVBusVolt_Curr_MsgEnable.BMS_HVBusVolt_Curr_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_OBCCtrl_MsgEnable.BMS_OBCCtrl_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Pack_status_MsgEnable.BMS_Pack_status_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_PwrLimit_Chg_MsgEnable.BMS_PwrLimit_Chg_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_PwrLimit_DisChg_MsgEnable.BMS_PwrLimit_DisChg_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg1_MsgEnable.BMS_TempSensorMsg1_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_TempSensorMsg2_MsgEnable.BMS_TempSensorMsg2_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_Temp_MsgEnable.BMS_Temp_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_WarningMsg_MsgEnable.BMS_WarningMsg_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_battery_system_code_1_MsgEnable.BMS_battery_system_code_1_MsgDisable,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch58_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch58_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch59_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch59_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch59_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch5_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch5_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch5_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch60_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch60_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch60_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch6_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch6_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch6_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch7_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch7_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch7_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch8_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch8_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch8_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch9_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch9_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch9_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch10_Average_Voltage,0,1,2,"69.180, 71.380","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch10_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch11_Average_Voltage,0,1,2,"73.580, 75.780","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch11_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch12_Average_Voltage,0,1,2,"77.980, 79.980","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch12_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch13_Average_Voltage,0,1,2,"82.180, 84.380","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch13_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch14_Average_Voltage,0,1,2,"86.580, 88.780","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch14_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch15_Average_Voltage,0,1,2,"90.980, 92.980","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch15_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch16_Average_Voltage,0,1,2,"95.180, 97.380","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch16_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch17_Average_Voltage,0,1,2,"99.580, 101.780","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch17_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch18_Average_Voltage,0,1,2,"103.980, 105.980","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch18_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch19_Average_Voltage,0,1,2,"108.180, 110.380","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch19_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch1_Average_Voltage,0,1,2,"30.180, 32.180","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch1_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch20_Average_Voltage,0,1,2,"112.580, 114.780","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch20_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch21_Average_Voltage,0,1,2,"116.980, 118.980","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch21_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch22_Average_Voltage,0,1,2,"121.180, 123.380","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch22_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch23_Average_Voltage,0,1,2,"125.580, 127.780","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch23_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch24_Average_Voltage,0,1,2,"129.980, 131.980","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch24_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch2_Average_Voltage,0,1,2,"34.380, 36.580","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch2_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch3_Average_Voltage,0,1,2,"38.780, 40.980","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch3_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch4_Average_Voltage,0,1,2,"43.180, 45.180","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch4_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch5_Average_Voltage,0,1,2,"47.380, 49.580","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch5_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch6_Average_Voltage,0,1,2,"51.780, 53.980","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch6_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch7_Average_Voltage,0,1,2,"56.180, 58.180","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch7_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch8_Average_Voltage,0,1,2,"60.580, 62.580","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch8_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch9_Average_Voltage,0,1,2,"64.780, 66.980","{0, 1}",是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Voltage Input.Y_Ch9_Present_Voltage,0,0,0,,{0},是
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.EPB_Force_RR,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.EPB_Force_RL,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.FLDamperForce,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.FLSpringForce,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.FRDamperForce,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.FRSpringForce,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.Force_SusWext_1L,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.Force_SusWext_1R,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.Force_SusWext_2L,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.Force_SusWext_2R,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.RLDamperForce,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.RLSpringForce,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.RRDamperForce,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromFCC_model.RRSpringForce,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromDriverManeuver.SteeringWheelAngle_rad,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromDriverManeuver.DecelZoneSet,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromCAN.FrontTrqCmd1,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromCAN.RearTrqCmd,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.ToModelbase.FromEPS_model.EPSActuator_AN_IN_PowerSteeringTorque,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output1.BRKWeak,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output1.U_DO_Ch1_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output10.U_DO_Ch10_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output10.U_DO_Ch10_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output11.U_DO_Ch11_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output11.U_DO_Ch11_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output12.U_DO_Ch12_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output12.U_DO_Ch12_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output13.U_DO_Ch13_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output13.U_DO_Ch13_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output14.U_DO_Ch14_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output14.U_DO_Ch14_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output15.U_DO_Ch15_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output15.U_DO_Ch15_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output16.U_DO_Ch16_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output16.U_DO_Ch16_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output17.U_DO_Ch17_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output17.U_DO_Ch17_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output18.U_DO_Ch18_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output18.U_DO_Ch18_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output19.U_DO_Ch19_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output19.U_DO_Ch19_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output2.BRKStr,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output2.U_DO_Ch2_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output20.U_DO_Ch20_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output20.U_DO_Ch20_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output21.U_DO_Ch21_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output21.U_DO_Ch21_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output22.U_DO_Ch22_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output22.U_DO_Ch22_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output23.U_DO_Ch23_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output23.U_DO_Ch23_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output24.U_DO_Ch24_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output24.U_DO_Ch24_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output25.U_DO_Ch25_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output25.U_DO_Ch25_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output26.U_DO_Ch26_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output26.U_DO_Ch26_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output27.U_DO_Ch27_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output27.U_DO_Ch27_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output28.U_DO_Ch28_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output28.U_DO_Ch28_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output29.U_DO_Ch29_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output29.U_DO_Ch29_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output3.U_DO_Ch3_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output3.U_DO_Ch3_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output30.U_DO_Ch30_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output30.U_DO_Ch30_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output31.U_DO_Ch31_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output31.U_DO_Ch31_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output32.U_DO_Ch32_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output32.U_DO_Ch32_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output33.U_DO_Ch33_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output33.U_DO_Ch33_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output34.U_DO_Ch34_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output34.U_DO_Ch34_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output35.U_DO_Ch35_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output35.U_DO_Ch35_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output36.U_DO_Ch36_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output36.U_DO_Ch36_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output4.U_DO_Ch4_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output4.U_DO_Ch4_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output5.U_DO_Ch5_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output5.U_DO_Ch5_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output6.U_DO_Ch6_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output6.U_DO_Ch6_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output7.U_DO_Ch7_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output7.U_DO_Ch7_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output8.U_DO_Ch8_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output8.U_DO_Ch8_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output9.U_DO_Ch9_OutCmd_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.Digital Output.Digital Output9.U_DO_Ch9_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output1.U_Ch1_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output1.U_Ch1_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output1.U_Ch1_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output1.U_Ch1_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output10.U_Ch10_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output10.U_Ch10_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output10.U_Ch10_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output10.U_Ch10_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output11.U_Ch11_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output11.U_Ch11_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output11.U_Ch11_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output11.U_Ch11_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output12.U_Ch12_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output12.U_Ch12_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output12.U_Ch12_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output12.U_Ch12_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output13.U_Ch13_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output13.U_Ch13_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output13.U_Ch13_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output13.U_Ch13_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output14.U_Ch14_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output14.U_Ch14_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output14.U_Ch14_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output14.U_Ch14_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output15.U_Ch15_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output15.U_Ch15_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output15.U_Ch15_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output15.U_Ch15_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output16.U_Ch16_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output16.U_Ch16_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output16.U_Ch16_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output16.U_Ch16_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output17.U_Ch17_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output17.U_Ch17_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output17.U_Ch17_PWM_Out_Amplitude_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output17.U_Ch17_PWM_Out_Enable_Out,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output18.U_Ch18_PWM_Out_Frequency_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.HW.PWM Output.PWM Output18.U_Ch18_PWM_Out_Duty_Ratio_Out,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftBMSDataToBus.BMS_battery_system_code_2_MsgEnable.BMS_battery_system_code_2_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General.DCDC_Fault_level_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General.DCDC_General_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General.DCDC_HVIL_state_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General.DCDC_On_Off_state_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General.DCDC_control_mode_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General.DCDC_input_Voltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General.DCDC_input_current_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General.DCDC_output_Voltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General.DCDC_output_current_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General.DCDC_over_temp_alarm_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General.DCDC_state_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General.DCDC_temp_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftDCDCDataToBus.DCDC_General_MsgEnable.DCDC_General_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_General.MC_Control_mode_ToBus,1,1,0,,{1},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_General.MC_General_Checksum_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_General.MC_General_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_General.MC_HVIL_Status_ToBus,0,7,1,66.681,"{0, 7}",否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_General.MC_MaxToque_Limit_ToBus,420,420,0,,{420},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_General.MC_Power_In_Or_Out_stata_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_General.MC_Status_TargetRun_ToBus,2,2,0,,{2},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_General.MC_Status_Uncover_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_General.MC_system_Fault_level_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_Status.MC_Status_Checksum_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_Status.MC_Status_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_Status.MC_Ucurrent_ToBus,500,500,0,,{500},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_Status.MC_Vcurrent_ToBus,500,500,0,,{500},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_Status.MC_max_Torque_Limit_ToBus,10,10,0,,{10},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_Temp.MC_Max_Temp_ToBus,20,20,0,,{20},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_Temp.MC_Motor_max_Temp_ToBus,20,20,0,,{20},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_Temp.MC_Temp_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_motor_Torque_AND_speed.MC_busbar_Voltage_ToBus,0,397.819,20,"26.681, 26.881, 27.081, 27.281, 27.481, 27.681, 27.881, 28.081, 28.281, 28.481 …",min=0; max=397.819; distinct=40,是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_motor_Torque_AND_speed.MC_busbar_current_ToBus,9.67779e-107,0.00627787,152,"0.681, 0.881, 1.081, 1.281, 1.481, 1.681, 1.881, 2.081, 2.281, 2.481 …",min=9.67779e-107; max=0.00627787; distinct=669,是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_motor_Torque_AND_speed.MC_motor_Torque_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_motor_Torque_AND_speed.MC_motor_speed_ToBus,6.7544e-103,43.815,174,"0.681, 0.881, 1.081, 1.281, 1.481, 1.681, 1.881, 2.081, 2.281, 2.481 …",min=6.7544e-103; max=43.815; distinct=669,否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_General_MsgEnable.MC_General_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_Status_MsgEnable.MC_Status_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_Temp_MsgEnable.MC_Temp_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftMCUDataToBus.MC_motor_Torque_AND_speed_MsgEnable.MC_motor_Torque_AND_speed_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_General.OBC_Charge_Temp_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_General.OBC_General_Checksum_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_General.OBC_General_Counter_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_General.OBC_HVIL_state_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_General.OBC_HV_In_Current_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_General.OBC_HV_Input_Voltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_General.OBC_HV_Output_Current_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_General.OBC_HV_Output_Voltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_General.OBC_error_Level_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_General.OBC_state_charge_run_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_VoltCurr.OBC_HV_Output_Max_Current_Limit_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_VoltCurr.OBC_HV_Output_Max_Voltage_Limit_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_VoltCurr.OBC_LV_Output_Current_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_VoltCurr.OBC_LV_Output_Voltage_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_VoltCurr.OBC_VoltCurr_Counter_ToBus,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_General_MsgEnable.OBC_General_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftOBCDataToBus.OBC_VoltCurr_MsgEnable.OBC_VoltCurr_MsgDisable,0,0,0,,{0},是
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftTesterDataToBus.DetailInfor_BroadCast.ECU_Edition_ToBus,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.ToVCU.powerCAN_out.SoftTesterDataToBus.DetailInfor_BroadCast_MsgEnable.DetailInfor_BroadCast_MsgDisable,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Driveline.FrontMotSpd,-4.5883,0.00246773,178,"0.681, 0.881, 1.081, 1.281, 1.481, 1.681, 1.881, 2.081, 2.281, 2.481 …",min=-4.5883; max=0.00246773; distinct=669,否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Driveline.RearMotSpd,-4.18191,0.0027482,170,"0.681, 0.881, 1.081, 1.281, 1.481, 1.681, 1.881, 2.081, 2.281, 2.481 …",min=-4.18191; max=0.0027482; distinct=669,否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Powertrain.FMotor.Motor.MotTrq,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Powertrain.FMotor.Motor.MotTrqManagement.FTrq,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Powertrain.RMotor.Motor.MotTrqManagement.RTrq,0,0,0,,{0},否
+Veh,average,输出,env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Vehicle1.Vehspeed,-0.6462,0.0682744,334,"0.681, 0.881, 1.081, 1.281, 1.481, 1.681, 1.881, 2.081, 2.281, 2.481 …",min=-0.6462; max=0.0682744; distinct=669,否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_2.TBOX_TimeValidity,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_2.day,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_2.hour,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_2.minute,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_2.month,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_2.second,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.CAN.VCU_Body.TBOX_2.year,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch10_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch11_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch12_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch13_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch14_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch15_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch16_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch17_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch18_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch19_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch1_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch20_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch21_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch22_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch23_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch24_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch25_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch26_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch27_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch28_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch29_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch2_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch30_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch31_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch32_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch33_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch34_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch35_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch36_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch3_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch4_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch5_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch6_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch7_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch8_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.Digital Input.Y_DI_Ch9_On_Off_Status,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch10_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch10_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch10_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch11_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch11_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch11_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch12_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch12_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch12_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch13_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch13_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch13_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch14_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch14_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch14_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch15_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch15_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch15_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch16_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch16_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch16_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch17_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch17_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch17_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch18_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch18_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch18_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch19_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch19_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch19_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch1_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch1_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch1_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch20_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch20_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch20_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch21_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch21_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch21_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch22_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch22_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch22_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch23_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch23_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch23_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch24_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch24_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch24_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch25_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch25_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch25_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch26_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch26_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch26_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch27_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch27_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch27_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch28_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch28_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch28_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch29_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch29_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch29_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch2_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch2_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch2_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch30_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch30_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch30_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch31_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch31_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch31_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch32_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch32_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch32_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch33_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch33_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch33_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch34_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch34_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch34_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch35_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch35_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch35_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch36_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch36_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch36_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch37_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch37_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch37_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch38_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch38_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch38_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch39_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch39_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch39_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch3_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch3_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch3_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch40_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch40_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch40_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch41_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch41_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch41_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch42_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch42_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch42_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch43_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch43_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch43_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch44_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch44_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch44_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch45_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch45_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch45_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch46_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch46_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch46_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch47_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch47_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch47_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch48_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch48_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch48_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch49_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch49_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch49_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch4_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch4_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch4_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch50_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch50_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch50_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch51_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch51_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch51_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch52_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch52_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch52_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch53_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch53_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch53_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch54_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch54_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch54_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch55_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch55_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch55_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch56_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch56_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch56_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch57_PWM_In_Amplitude,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch57_PWM_In_Duty_Ratio,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch57_PWM_In_Frequency,0,0,0,,{0},否
+Veh,average,输入,env_1_Design/Veh_1/InPort/Veh_1.FromVCU.HW.PWM Input.Y_Ch58_PWM_In_Amplitude,0,0,0,,{0},否

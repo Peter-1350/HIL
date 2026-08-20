@@ -1,0 +1,10 @@
+﻿层,录波,文件,接口数,电压电流输入边沿接口数,输出接口数,响应候选对数,采样周期_s,响应窗口_s
+env,others,D:\SCHOOL\6.2026-Summer\Week_1\Project\EA_program\test01\.hlt\Caches\Recorder\环境通道_all\others_env_2.mdf,3229,2,1813,0,0.2,0.4
+env,average,D:\SCHOOL\6.2026-Summer\Week_1\Project\EA_program\test01\.hlt\Caches\Recorder\环境通道_all\average_Voltage_env_1.mdf,3229,2,1813,0,0.2,0.4
+env,present,D:\SCHOOL\6.2026-Summer\Week_1\Project\EA_program\test01\.hlt\Caches\Recorder\环境通道_all\present_Voltage_env_0.mdf,3229,2,1813,0,0.2,0.4
+net,others,D:\SCHOOL\6.2026-Summer\Week_1\Project\EA_program\test01\.hlt\Caches\Recorder\网络模型_all\others_net_2.mdf,2219,4,1244,148,0.2,0.4
+net,average,D:\SCHOOL\6.2026-Summer\Week_1\Project\EA_program\test01\.hlt\Caches\Recorder\网络模型_all\average_Voltage_net_1.mdf,2219,4,1244,150,0.2,0.4
+net,present,D:\SCHOOL\6.2026-Summer\Week_1\Project\EA_program\test01\.hlt\Caches\Recorder\网络模型_all\present_Voltage_net_0.mdf,2219,4,1244,144,0.2,0.4
+Veh,others,D:\TOOL\KunyiSoftwares\VcarEERecorder\recorder_root\Veh_1_all\others_Veh_3.mdf,1264,12,574,0,0.2,0.4
+Veh,average,D:\TOOL\KunyiSoftwares\VcarEERecorder\recorder_root\Veh_1_all\average_Voltage_Veh_2.mdf,1264,25,574,0,0.2,0.4
+Veh,present,D:\TOOL\KunyiSoftwares\VcarEERecorder\recorder_root\Veh_1_all\present_Voltage_Veh_1.mdf,1264,25,574,0,0.2,0.4
