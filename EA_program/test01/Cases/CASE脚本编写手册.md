@@ -230,7 +230,7 @@ Python 扩展 Action 要求命名空间。例如 `RandomUniform` 的现有案例
 
 ### IfThenElse：条件分支
 
-条件节点、Then 和 Else 三者都使用 Action `IfThenElse`，区别在于第一个节点带条件参数：
+If、Then 和 Else 三者都使用 Action `IfThenElse`，区别在于 If 节点带条件参数。**这三个结构节点的 `Name` 也是执行器识别分支的一部分：条件节点必须严格为 `If`，子节点必须严格为 `Then`、`Else`；不要将它们改成业务名称。**业务含义写入 `Comment`，而不是 `Name`。
 
 ```xml
 <StepItem ID="test_[id1]" Name="If" TestType="TCG">
@@ -254,6 +254,8 @@ Python 扩展 Action 要求命名空间。例如 `RandomUniform` 的现有案例
 ```
 
 分支中的业务步骤再以 `/<父路径>/If/Then` 或 `/<父路径>/If/Else` 为父路径。现有案例在 Else 下额外放置 `Group`，这不是上面结构本身必需的字段。
+
+若将 If 节点改名为如“Ready灯是否熄灭”“速度门控结果”或 `IfThenElse`，虽然 XML 仍可解析，但执行器可能不再把它作为分支节点，继而顺序执行 Then、Else 下的所有步骤。发生此类问题时，应在 EA 中重新添加标准 `IfThenElse` 模块（其三个节点名称仍为 `If`、`Then`、`Else`），并按上述路径重挂子步骤；不要只改回 XML 的 `Action` 字段。
 
 ### RandomUniform：Python 扩展 Action 示例
 

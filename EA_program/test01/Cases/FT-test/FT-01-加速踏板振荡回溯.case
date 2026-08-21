@@ -1,0 +1,1342 @@
+<?xml version="1.0"?>
+<TestCase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>test_34cf4b1eeeeb4be4b326de69053fa812</ID>
+  <Mapping>
+    <MappingItem Name="[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/Veh_1/InPort/Veh_1.Driver.AccPedal_perc</RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description>FT-01 振荡故障写入</Description>
+      <RefCount>8</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+    <MappingItem Name="[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/Veh_1/InPort/Veh_1.Driver.BrakePedal_perc</RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description>每轮录波前后制动归零</Description>
+      <RefCount>9</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+    <MappingItem Name="[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/Veh_1/InPort/Veh_1.Driver.Key</RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description>建立目标工况</Description>
+      <RefCount>3</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+    <MappingItem Name="[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/Veh_1/InPort/Veh_1.Driver.Gear_Button</RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description>建立目标工况；1 的具体挡位语义须与既有工况确认</Description>
+      <RefCount>4</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+    <MappingItem Name="[0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/VCU/OutPort/GW_VCU_1.VCU_bReadyLightSts</RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description>每轮开始与速度门控期间检查 Ready 灯</Description>
+      <RefCount>4</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+    <MappingItem Name="[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed" Category="VCU_HIL : env_1">
+      <RealTargetSource>env_1_Design/Veh_1/OutPort/Veh_1.PlantModel.PlantModel.Vehicle1.Vehspeed </RealTargetSource>
+      <_IsChecked>false</_IsChecked>
+      <Target>VCU_HIL/[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed</Target>
+      <DataType>Float</DataType>
+      <Unit>_</Unit>
+      <Description>录波开始前速度门控</Description>
+      <RefCount>4</RefCount>
+      <IsChecked>false</IsChecked>
+    </MappingItem>
+  </Mapping>
+  <Variables>
+    <VariableItem Name="Speed" DataType="Float" Description="">
+      <InitialValue>0</InitialValue>
+      <CurrentValue />
+      <RefCount>0</RefCount>
+    </VariableItem>
+    <VariableItem Name="ReadyLight" DataType="Float" Description="VCU Ready 灯状态；1=亮">
+      <InitialValue>0</InitialValue>
+      <CurrentValue />
+      <RefCount>0</RefCount>
+    </VariableItem>
+    <VariableItem Name="RetryState" DataType="Float" Description="上电重试状态；0=继续，1=Ready，-1=三次均失败">
+      <InitialValue>0</InitialValue>
+      <CurrentValue />
+      <RefCount>0</RefCount>
+    </VariableItem>
+    <VariableItem Name="GateState" DataType="Float" Description="">
+      <InitialValue>0</InitialValue>
+      <CurrentValue />
+      <RefCount>0</RefCount>
+    </VariableItem>
+    <VariableItem Name="StopState" DataType="Float" Description="完全停车门控状态；0=继续制动，1=可进入下一轮">
+      <InitialValue>0</InitialValue>
+      <CurrentValue />
+      <RefCount>0</RefCount>
+    </VariableItem>
+    <VariableItem Name="Amplitude" DataType="Float" Description="本轮随机命令振幅；Oracle 录波为最终真值">
+      <InitialValue>0</InitialValue>
+      <CurrentValue />
+      <RefCount>0</RefCount>
+    </VariableItem>
+    <VariableItem Name="FaultPedal" DataType="Float" Description="当前振荡踏板写入值">
+      <InitialValue>30</InitialValue>
+      <CurrentValue />
+      <RefCount>0</RefCount>
+    </VariableItem>
+    <VariableItem Name="SeedEcho" DataType="Float" Description="">
+      <InitialValue>0</InitialValue>
+      <CurrentValue />
+      <RefCount>0</RefCount>
+    </VariableItem>
+  </Variables>
+  <Constants />
+  <Namespaces>
+    <NamespaceItem Name="pedal_oscillation">
+      <RefCount>11</RefCount>
+    </NamespaceItem>
+  </Namespaces>
+  <InitSteps />
+  <StopSteps />
+  <TestSteps>
+    <StepItem ID="test_3fdfef9a907b4e49a27c21df5b4f4001" Name="FT-01_加速踏板振荡批次" TestType="TCG">
+      <Path>/</Path>
+      <Action>Group</Action>
+      <Value />
+      <Comment>一个CASE内循环生成多条单故障录波</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_28386c8d1bc345bf9a86e975b0c41102" Name="SetRandomSeed" TestType="TCS">
+      <NamespaceItem xsi:type="NamespaceItem" Name="pedal_oscillation">
+        <RefCount>1</RefCount>
+      </NamespaceItem>
+      <Path>/FT-01_加速踏板振荡批次</Path>
+      <Action>SetRandomSeed</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>seed = 2026082106</Text>
+        <Metadata xsi:type="FuncMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Variable>SeedEcho</Variable>
+          <Constant />
+          <Value />
+          <MetadataCollection>
+            <DicMetadata>
+              <Key>seed</Key>
+              <Value>2026082106</Value>
+            </DicMetadata>
+          </MetadataCollection>
+        </Metadata>
+      </Parameter>
+      <Value>SeedEcho</Value>
+      <Comment>固定种子；每次完整批次可重放</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_15d5521c0c7248bfb5b6673f74c41103" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>已移入每轮的“制动→钥匙→Ready”流程</Comment>
+      <IsCommented>true</IsCommented>
+    </StepItem>
+    <StepItem ID="test_b7efbcabc4394bfea8e39f36e4c41104" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>已移入 Ready 确认后的分支</Comment>
+      <IsCommented>true</IsCommented>
+    </StepItem>
+    <StepItem ID="test_e6ab5b26a9304ec79534831c82c41105" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>3000 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>3000</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>初始上电等待已移入每轮 Ready 异常恢复分支</Comment>
+      <IsCommented>true</IsCommented>
+    </StepItem>
+    <StepItem ID="test_d3d1d32f0bd34eaa8ba82ad434c41106" Name="批次Loop" TestType="TCG">
+      <Path>/FT-01_加速踏板振荡批次</Path>
+      <Action>Loop</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>10 min</Text>
+        <Metadata xsi:type="LoopMetadata">
+          <CanSaveValue>false</CanSaveValue>
+          <LoopMode>Time</LoopMode>
+          <LoopDurationUnit>min</LoopDurationUnit>
+          <LoopCount>10</LoopCount>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>总批次5 min；按需要调整，LoopCount为已验证的时间字段</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_113802093cd644e698d9aa5325c41107" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>本轮准备：松油门</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_3a3b86ea9a8c4e71be3bb62f95c41108" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 100</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>100</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>制动至速度门控目标</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000001" Name="Read" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts, Timeout = 1000</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts</Mapping>
+          <Variable>ReadyLight</Variable>
+          <Constant />
+          <Value />
+          <Timeout>1000</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>ReadyLight</Value>
+      <Comment>每轮开始读取 Ready 灯</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000056" Name="ResetReadyRetry" TestType="TCS">
+      <NamespaceItem xsi:type="NamespaceItem" Name="pedal_oscillation">
+        <RefCount>1</RefCount>
+      </NamespaceItem>
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>ResetReadyRetry</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>ready_light = $ReadyLight, max_attempts = 3</Text>
+        <Metadata xsi:type="FuncMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Variable>RetryState</Variable>
+          <Constant />
+          <Value />
+          <MetadataCollection>
+            <DicMetadata>
+              <Key>ready_light</Key>
+              <Value>$ReadyLight</Value>
+            </DicMetadata>
+            <DicMetadata>
+              <Key>max_attempts</Key>
+              <Value>3</Value>
+            </DicMetadata>
+          </MetadataCollection>
+        </Metadata>
+      </Parameter>
+      <Value>RetryState</Value>
+      <Comment>Ready 已亮则跳过重试；否则最多允许三次完整上电尝试</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000055" Name="上电重试" TestType="TCG">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>While</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>$RetryState == 0</Text>
+        <Metadata xsi:type="WhileMetadata">
+          <Expression>$RetryState == 0</Expression>
+          <ExpressionEditMode>Easy</ExpressionEditMode>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>每轮依次下电、空挡、制动、上电，并重新读取 Ready</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b4a2dff59774d0fb3805eb509dd58c7" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/上电重试</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>制动归零</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_2372057431ec4900b7ac143381b4e659" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/上电重试</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>500 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>500</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000005" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/上电重试</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>Ready未亮：先断钥匙</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_3c0b856a4b9b4ffeb041607ac27d7979" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/上电重试</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>500 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>500</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>保持制动，等待钥匙下电状态生效</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_3740d6e2ae6c47fba10528b2dab16d75" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/上电重试</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挂回N挡</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000006" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/上电重试</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>500 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>500</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>空挡状态稳定后才允许重新上电</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_77a54372e7214eee9e474b79d3169a2b" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/上电重试</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 100</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>100</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>制动至速度门控目标</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_10fc9b4f09b14f3e95f305e669d60936" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/上电重试</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>500 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>500</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>空挡状态稳定后才允许重新上电</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000007" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/上电重试</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Key</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>保持制动后重新拧钥匙</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000008" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/上电重试</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>3000 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>3000</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>等待 Ready 建立；后续联合门控继续核验</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000058" Name="Read" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/上电重试</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts, Timeout = 1000</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts</Mapping>
+          <Variable>ReadyLight</Variable>
+          <Constant />
+          <Value />
+          <Timeout>1000</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>ReadyLight</Value>
+      <Comment>每次上电等待后重新读取 Ready 灯</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000057" Name="UpdateReadyRetry" TestType="TCS">
+      <NamespaceItem xsi:type="NamespaceItem" Name="pedal_oscillation">
+        <RefCount>1</RefCount>
+      </NamespaceItem>
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/上电重试</Path>
+      <Action>UpdateReadyRetry</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>ready_light = $ReadyLight</Text>
+        <Metadata xsi:type="FuncMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Variable>RetryState</Variable>
+          <Constant />
+          <Value />
+          <MetadataCollection>
+            <DicMetadata>
+              <Key>ready_light</Key>
+              <Value>$ReadyLight</Value>
+            </DicMetadata>
+          </MetadataCollection>
+        </Metadata>
+      </Parameter>
+      <Value>RetryState</Value>
+      <Comment>Ready=1 则成功退出；否则计数，第三次失败返回 -1</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000059" Name="If" TestType="TCG">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>IfThenElse</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>$RetryState == -1</Text>
+        <Metadata xsi:type="IfThenElseMetadata">
+          <Condition>$RetryState == -1</Condition>
+          <ExpressionEditMode>Easy</ExpressionEditMode>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>仅在三次上电均未建立 Ready 时，安全收尾并终止整个批次</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000060" Name="Then" TestType="TCG">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/If</Path>
+      <Action>IfThenElse</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000062" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/If/Then</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>Ready 建立失败：安全松油门</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000063" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/If/Then</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 100</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>100</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>Ready 建立失败：保持制动</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000064" Name="Break" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/If/Then</Path>
+      <Action>Break</Action>
+      <Value />
+      <Comment>退出最外层批次 Loop，提前结束实验</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000061" Name="Else" TestType="TCG">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/If</Path>
+      <Action>IfThenElse</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000041" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button = 1</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/Gear_Button</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>1</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>Ready 已确认后挂入试验挡位；不录波</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000042" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>1000 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>1000</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>挂挡后等待 1 s，避免挡位切换与给油重叠</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000043" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>释放制动，准备加速至目标车速；不录波</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000044" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>1000 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>1000</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>松制动后等待 1 s，再开始给油</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000045" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc = 30</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>30</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>以 p0=30% 加速；达到车速门槛后才启动录波</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_a9c2c45331534dde9e676521a4c41109" Name="ResetSpeedReachedReadyGate" TestType="TCS">
+      <NamespaceItem xsi:type="NamespaceItem" Name="pedal_oscillation">
+        <RefCount>1</RefCount>
+      </NamespaceItem>
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>ResetSpeedReachedReadyGate</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>minimum_speed = 60, stable_duration_ms = 1000, timeout_ms = 90000</Text>
+        <Metadata xsi:type="FuncMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Variable>GateState</Variable>
+          <Constant />
+          <Value />
+          <MetadataCollection>
+            <DicMetadata>
+              <Key>minimum_speed</Key>
+              <Value>60</Value>
+            </DicMetadata>
+            <DicMetadata>
+              <Key>stable_duration_ms</Key>
+              <Value>1000</Value>
+            </DicMetadata>
+            <DicMetadata>
+              <Key>timeout_ms</Key>
+              <Value>90000</Value>
+            </DicMetadata>
+          </MetadataCollection>
+        </Metadata>
+      </Parameter>
+      <Value>GateState</Value>
+      <Comment>Ready=1 且车速≥60 连续1s 才允许录波；踏板p0=30%，单位须基线确认</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_d2778671b2cd405d9c56947619c41110" Name="Read" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed, Timeout = 200</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed</Mapping>
+          <Variable>Speed</Variable>
+          <Constant />
+          <Value />
+          <Timeout>200</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>Speed</Value>
+      <Comment>读取当前车速</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000009" Name="Read" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts, Timeout = 1000</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts</Mapping>
+          <Variable>ReadyLight</Variable>
+          <Constant />
+          <Value />
+          <Timeout>1000</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>ReadyLight</Value>
+      <Comment>速度门控前复核 Ready 灯</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_23dc5de853b846b79e283ed34fc41111" Name="UpdateSpeedReachedReadyGate" TestType="TCS">
+      <NamespaceItem xsi:type="NamespaceItem" Name="pedal_oscillation">
+        <RefCount>1</RefCount>
+      </NamespaceItem>
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>UpdateSpeedReachedReadyGate</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>speed = $Speed, ready_light = $ReadyLight</Text>
+        <Metadata xsi:type="FuncMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Variable>GateState</Variable>
+          <Constant />
+          <Value />
+          <MetadataCollection>
+            <DicMetadata>
+              <Key>speed</Key>
+              <Value>$Speed</Value>
+            </DicMetadata>
+            <DicMetadata>
+              <Key>ready_light</Key>
+              <Value>$ReadyLight</Value>
+            </DicMetadata>
+          </MetadataCollection>
+        </Metadata>
+      </Parameter>
+      <Value>GateState</Value>
+      <Comment>检查 Ready 与车速是否达到 60</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_4bb18f840aec45f799643a58e8c41112" Name="等待速度门控" TestType="TCG">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>While</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>$GateState == 0</Text>
+        <Metadata xsi:type="WhileMetadata">
+          <Expression>$GateState == 0</Expression>
+          <ExpressionEditMode>Easy</ExpressionEditMode>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>1=达到目标，-1=超时，-2=Ready丢失；均退出循环</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_73c1e6dbdca5494183d4f811dec41113" Name="Read" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/等待速度门控</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed, Timeout = 200</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed</Mapping>
+          <Variable>Speed</Variable>
+          <Constant />
+          <Value />
+          <Timeout>200</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>Speed</Value>
+      <Comment>轮询车速</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000010" Name="Read" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/等待速度门控</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts, Timeout = 1000</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/网络模型/CAN/VCU/RxMsg/GW_VCU_1 (0x403)/VCU_bReadyLightSts</Mapping>
+          <Variable>ReadyLight</Variable>
+          <Constant />
+          <Value />
+          <Timeout>1000</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>ReadyLight</Value>
+      <Comment>门控等待期间持续核验 Ready 灯</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_a2fc0ae1ad8f4b26ae78b4f69bc41114" Name="UpdateSpeedReachedReadyGate" TestType="TCS">
+      <NamespaceItem xsi:type="NamespaceItem" Name="pedal_oscillation">
+        <RefCount>1</RefCount>
+      </NamespaceItem>
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/等待速度门控</Path>
+      <Action>UpdateSpeedReachedReadyGate</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>speed = $Speed, ready_light = $ReadyLight</Text>
+        <Metadata xsi:type="FuncMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Variable>GateState</Variable>
+          <Constant />
+          <Value />
+          <MetadataCollection>
+            <DicMetadata>
+              <Key>speed</Key>
+              <Value>$Speed</Value>
+            </DicMetadata>
+            <DicMetadata>
+              <Key>ready_light</Key>
+              <Value>$ReadyLight</Value>
+            </DicMetadata>
+          </MetadataCollection>
+        </Metadata>
+      </Parameter>
+      <Value>GateState</Value>
+      <Comment>持续检查 Ready、车速门槛与超时状态</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_e7c6e4de6ee34a72b2e045f5fdc41115" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/等待速度门控</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>避免忙循环</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_43e7388747694271b4cb801da6c41116" Name="速度门控结果" TestType="TCG">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Group</Action>
+      <Value />
+      <Comment>速度门控结果的业务分组；内部条件节点名称固定为 IfThenElse</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000065" Name="If" TestType="TCG">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果</Path>
+      <Action>IfThenElse</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>$GateState == 1</Text>
+        <Metadata xsi:type="IfThenElseMetadata">
+          <Condition>$GateState == 1</Condition>
+          <ExpressionEditMode>Easy</ExpressionEditMode>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>仅稳定就绪时录波和注入</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_f93a728d0a51438ba7a5ef4574c41117" Name="Then" TestType="TCG">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If</Path>
+      <Action>IfThenElse</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_c70a1b52b65b4438b2a9ec2f84c41121" Name="StartRecorder" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If/Then</Path>
+      <Action>StartRecorder</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>BaseName=FT-01-加速踏板振荡-Oracle, RecorderFile=FT-01-加速踏板振荡-Oracle.dr, StopFirstAndThenStart=True</Text>
+        <Metadata xsi:type="RecorderStartMetadata">
+          <StopFirstAndThenStart>true</StopFirstAndThenStart>
+          <Action>Start</Action>
+          <RecorderFile>FT-01-加速踏板振荡-Oracle.dr</RecorderFile>
+          <RecorderID>f2bcf1b0-7624-4dbe-a44c-bc8c61311901</RecorderID>
+          <RecorderBaseName>FT-01-加速踏板振荡-Oracle</RecorderBaseName>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>仅从正常基线开始录制本轮</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_9f0665541dc74e87bf2c5d94c3c41122" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If/Then</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>3000 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>3000</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>故障前健康基线</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_7d915b0d10fc462c8fa6f5777ec41123" Name="ResetRandomSine" TestType="TCS">
+      <NamespaceItem xsi:type="NamespaceItem" Name="pedal_oscillation">
+        <RefCount>1</RefCount>
+      </NamespaceItem>
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If/Then</Path>
+      <Action>ResetRandomSine</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>center = 30, min_amplitude = 2, max_amplitude = 15, frequency_hz = 2, sample_period_ms = 20</Text>
+        <Metadata xsi:type="FuncMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Variable>Amplitude</Variable>
+          <Constant />
+          <Value />
+          <MetadataCollection>
+            <DicMetadata>
+              <Key>center</Key>
+              <Value>30</Value>
+            </DicMetadata>
+            <DicMetadata>
+              <Key>min_amplitude</Key>
+              <Value>2</Value>
+            </DicMetadata>
+            <DicMetadata>
+              <Key>max_amplitude</Key>
+              <Value>15</Value>
+            </DicMetadata>
+            <DicMetadata>
+              <Key>frequency_hz</Key>
+              <Value>2</Value>
+            </DicMetadata>
+            <DicMetadata>
+              <Key>sample_period_ms</Key>
+              <Value>20</Value>
+            </DicMetadata>
+          </MetadataCollection>
+        </Metadata>
+      </Parameter>
+      <Value>Amplitude</Value>
+      <Comment>每轮随机A；频率/时长固定</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_60d612b5f16e4d6691f6994b52c41124" Name="注入波形" TestType="TCG">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If/Then</Path>
+      <Action>Loop</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>3000 ms</Text>
+        <Metadata xsi:type="LoopMetadata">
+          <CanSaveValue>false</CanSaveValue>
+          <LoopMode>Time</LoopMode>
+          <LoopDurationUnit>ms</LoopDurationUnit>
+          <LoopCount>3000</LoopCount>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>一次故障，目标150点；实际A/f/D由Oracle核验</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_31e09aa81d44469fa4a8e4403cc41125" Name="NextSineSample" TestType="TCS">
+      <NamespaceItem xsi:type="NamespaceItem" Name="pedal_oscillation">
+        <RefCount>1</RefCount>
+      </NamespaceItem>
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If/Then/注入波形</Path>
+      <Action>NextSineSample</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>dummy = 0</Text>
+        <Metadata xsi:type="FuncMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Variable>FaultPedal</Variable>
+          <Constant />
+          <Value />
+          <MetadataCollection>
+            <DicMetadata>
+              <Key>dummy</Key>
+              <Value>0</Value>
+            </DicMetadata>
+          </MetadataCollection>
+        </Metadata>
+      </Parameter>
+      <Value>FaultPedal</Value>
+      <Comment>读取当前正弦样点</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_0dea1def1d2c434b8c5c0f0844c41126" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If/Then/注入波形</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc = $FaultPedal</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>$FaultPedal</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>写入本次振荡点</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_25b612dd64d64c64b8dde20f4bc41127" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If/Then/注入波形</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>20 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>20</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>计划写入周期</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_0175e4f7f4be4a7dbf6c8e2f38c41128" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If/Then</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc = 30</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>30</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>恢复健康参考p0</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_eaa967fc52c94d3d94317299f7c41129" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If/Then</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>5000 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>5000</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>恢复/锁存观察</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_f1e6f827ebf04cae9d270e7fb6c41130" Name="StopRecorder" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If/Then</Path>
+      <Action>StopRecorder</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>RecorderFile=FT-01-加速踏板振荡-Oracle.dr</Text>
+        <Metadata xsi:type="RecorderStopMetadata">
+          <Action>Stop</Action>
+          <RecorderFile>FT-01-加速踏板振荡-Oracle.dr</RecorderFile>
+          <RecorderID>f2bcf1b0-7624-4dbe-a44c-bc8c61311901</RecorderID>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>本轮单故障录波结束</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_20e82cc1a6c64d0291a96e9732c41131" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If/Then</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>1000 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>1000</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>速度门控超时，本轮不录波；下一批次循环重新准备</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_788c20cebe724ba5a44d6680d2c41118" Name="Else" TestType="TCG">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/速度门控结果/If</Path>
+      <Action>IfThenElse</Action>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000054" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>每轮结束：松油门，开始完全停车流程（不录波）</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000046" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 100</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>100</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>保持全制动，直至车速确实归零</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000047" Name="ResetVehicleStoppedGate" TestType="TCS">
+      <NamespaceItem xsi:type="NamespaceItem" Name="pedal_oscillation">
+        <RefCount>1</RefCount>
+      </NamespaceItem>
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>ResetVehicleStoppedGate</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>stop_speed = 0</Text>
+        <Metadata xsi:type="FuncMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Variable>StopState</Variable>
+          <Constant />
+          <Value />
+          <MetadataCollection>
+            <DicMetadata>
+              <Key>stop_speed</Key>
+              <Value>0</Value>
+            </DicMetadata>
+          </MetadataCollection>
+        </Metadata>
+      </Parameter>
+      <Value>StopState</Value>
+      <Comment>仅当 Vehspeed≤0 才允许进入下一轮；无超时，防止未停车进入下一轮</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000048" Name="Read" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed, Timeout = 200</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed</Mapping>
+          <Variable>Speed</Variable>
+          <Constant />
+          <Value />
+          <Timeout>200</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>Speed</Value>
+      <Comment>开始停车门控前读取车速</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000049" Name="UpdateVehicleStoppedGate" TestType="TCS">
+      <NamespaceItem xsi:type="NamespaceItem" Name="pedal_oscillation">
+        <RefCount>1</RefCount>
+      </NamespaceItem>
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>UpdateVehicleStoppedGate</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>speed = $Speed</Text>
+        <Metadata xsi:type="FuncMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Variable>StopState</Variable>
+          <Constant />
+          <Value />
+          <MetadataCollection>
+            <DicMetadata>
+              <Key>speed</Key>
+              <Value>$Speed</Value>
+            </DicMetadata>
+          </MetadataCollection>
+        </Metadata>
+      </Parameter>
+      <Value>StopState</Value>
+      <Comment>仅在 Vehspeed≤0 时结束停车门控</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000050" Name="等待完全停车" TestType="TCG">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>While</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>$StopState == 0</Text>
+        <Metadata xsi:type="WhileMetadata">
+          <Expression>$StopState == 0</Expression>
+          <ExpressionEditMode>Easy</ExpressionEditMode>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>未完全停车则保持制动、持续轮询；不允许开始下一轮</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000051" Name="Read" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/等待完全停车</Path>
+      <Action>Read</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>Mapping = [0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed, Timeout = 200</Text>
+        <Metadata xsi:type="ReadMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Mapping>[0]: env_1/第三方模型/Veh_1/OutputPort/Veh_1/PlantModel/PlantModel/Vehicle1/Vehspeed</Mapping>
+          <Variable>Speed</Variable>
+          <Constant />
+          <Value />
+          <Timeout>200</Timeout>
+        </Metadata>
+      </Parameter>
+      <Value>Speed</Value>
+      <Comment>轮询制动后的实际车速</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000052" Name="UpdateVehicleStoppedGate" TestType="TCS">
+      <NamespaceItem xsi:type="NamespaceItem" Name="pedal_oscillation">
+        <RefCount>1</RefCount>
+      </NamespaceItem>
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/等待完全停车</Path>
+      <Action>UpdateVehicleStoppedGate</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>speed = $Speed</Text>
+        <Metadata xsi:type="FuncMetadata">
+          <CanSaveValue>true</CanSaveValue>
+          <CanEvaluation>false</CanEvaluation>
+          <Variable>StopState</Variable>
+          <Constant />
+          <Value />
+          <MetadataCollection>
+            <DicMetadata>
+              <Key>speed</Key>
+              <Value>$Speed</Value>
+            </DicMetadata>
+          </MetadataCollection>
+        </Metadata>
+      </Parameter>
+      <Value>StopState</Value>
+      <Comment>更新完全停车状态</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8b6d2713f2a54e9ba9c4113400000053" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop/等待完全停车</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>100 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>100</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>避免停车门控忙循环</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_0f186e7491784242a446b83310994006" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>制动归零</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_aa47ba6f2c20422f8484cec60c8699fa" Name="Wait" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次/批次Loop</Path>
+      <Action>Wait</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>500 ms</Text>
+        <Metadata xsi:type="WaitMetadata">
+          <Duration>500</Duration>
+          <Unit>ms</Unit>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment />
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_3ab7d799abb54b7d87f0e0edc9c41132" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/AccPedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>批次结束安全松油门</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+    <StepItem ID="test_8252dd4017bc4e65a95e9d3a4ec41133" Name="Write" TestType="TCS">
+      <Path>/FT-01_加速踏板振荡批次</Path>
+      <Action>Write</Action>
+      <Parameter xsi:type="Parameter">
+        <Text>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc = 0</Text>
+        <Metadata xsi:type="Metadata">
+          <Mapping>[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc</Mapping>
+          <Constant />
+          <IsValueInExpression>true</IsValueInExpression>
+          <Value>0</Value>
+          <IsPythonMethod>false</IsPythonMethod>
+        </Metadata>
+      </Parameter>
+      <Value />
+      <Comment>批次结束安全制动</Comment>
+      <IsCommented>false</IsCommented>
+    </StepItem>
+  </TestSteps>
+</TestCase>

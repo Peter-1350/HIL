@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TestCase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ID>test_7b4f7031bbe4409e8e03c370a13d2957</ID>
+  <ID>test_57b1bc54ab1941b4bb6e6aa832d38918</ID>
   <Mapping>
     <MappingItem Name="[0]: env_1/第三方模型/Veh_1/InputPort/Veh_1/Driver/BrakePedal_perc" Category="VCU_HIL : env_1">
       <RealTargetSource>env_1_Design/Veh_1/InPort/Veh_1.Driver.BrakePedal_perc</RealTargetSource>
